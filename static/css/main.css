@@ -104,9 +104,9 @@ h6 { font-size: 1.25rem; }/* ~20px */
    Section Headers Override
 =========================== */
 section header h2 {
-  font-family: "Inter", sans-serif !important;
+  font-family: "Libre Baskerville", serif !important;
   font-weight: 700;
-  font-size: 2.5rem;  /* ~40px */
+  font-size: 3rem;  /* ~40px */
   line-height: 1.2;
   color: var(--h-title-color);
 }
