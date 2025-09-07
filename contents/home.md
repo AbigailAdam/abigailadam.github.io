@@ -2,8 +2,6 @@
 
 [![AbigailAdam](https://img.shields.io/badge/AbigailAdam-github-green?logo=github)](https://github.com/AbigailAdam)
 
-She is currently an Engineering Physics student and the University of British Columbia. 
-
 #### Contact
 
 Email: acadam00@gmail.com 
