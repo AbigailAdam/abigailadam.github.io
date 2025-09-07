@@ -10,6 +10,12 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ /* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Libre+Baskerville:wght@400;700&display=swap");
+
+
+
 :root {
   --bs-blue: #2937f0;
   --bs-indigo: #6610f2;
@@ -54,13 +60,17 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  /* section i changed  */
+  --bs-font-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", Arial, sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 500;
-  --bs-body-line-height: 1.5;
+
+  --bs-body-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --bs-body-font-size: 1rem;       /* 16px */
+  --bs-body-font-weight: 300;      /* Light */
+  --bs-body-line-height: 1.6;
+ /* section i changed ^ */
+
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
@@ -78,6 +88,152 @@
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
+
+/* another section I added ^ */
+
+/* ---------------------------
+   Body Text
+---------------------------- */
+body, p {
+  font-family: var(--bs-body-font-family);
+  font-weight: var(--bs-body-font-weight);
+  font-size: var(--bs-body-font-size);
+  line-height: var(--bs-body-line-height);
+  color: var(--main-text-color, #171c1f);
+}
+
+/* ---------------------------
+   Headings
+---------------------------- */
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 3rem;    /* ~48px */
+  line-height: 1.2;
+  color: var(--subtitle-color, #205644);
+}
+
+h2 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 2.5rem;  /* ~40px */
+  line-height: 1.25;
+  color: var(--subtitle-color, #205644);
+}
+
+h3 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 2rem;    /* ~32px */
+  line-height: 1.3;
+  color: var(--subtitle-color, #205644);
+}
+
+h4 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 1.75rem; /* ~28px */
+  line-height: 1.3;
+}
+
+h5 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 1.5rem;  /* ~24px */
+  line-height: 1.3;
+}
+
+h6 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 1.25rem; /* ~20px */
+  line-height: 1.3;
+}
+
+/* ---------------------------
+   Subtitle Class
+---------------------------- */
+.subtitle {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 1.5rem;   /* ~24px */
+  line-height: 1.3;
+  color: var(--subtitle-color, #205644);
+}
+
+/* ---------------------------
+   Top Section Special Heading
+---------------------------- */
+#top-section-bg-text {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 4rem;       /* ~64px */
+  line-height: 1.1;
+  color: var(--h-title-color, #205644);
+}
+
+/* ---------------------------
+   Top Section Styles
+---------------------------- */
+.top-section {
+  position: relative;
+  padding: 10rem 0;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.top-section:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.top-section .top-section-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* ---------------------------
+   Section Headers Override
+---------------------------- */
+section header h2 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 2.5rem;  /* ~40px */
+  line-height: 1.2;
+  color: var(--h-title-color, #205644);
+}
+
+/* ---------------------------
+   Other Styling
+---------------------------- */
+section .main-body {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--main-text-color, #171c1f);
+}
+
+.bg-gradient-primary-to-secondary-light {
+  background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
+}
+
+.bg-gradient-primary-to-secondary-gray {
+  background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
+}
+
+.on-top {
+  position: relative;
+  z-index: 10000;
+}
+
+/* another section I added ^ */
 
 *,
 *::before,
