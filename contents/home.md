@@ -1,6 +1,6 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/AbigailAdam)
+[![AbigailAdam](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/AbigailAdam)
 
 She is currently an Engineering Physics student and the University of British Columbia. 
 
