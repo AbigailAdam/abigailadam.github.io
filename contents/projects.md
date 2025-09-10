@@ -13,7 +13,7 @@ Applied Physics - Simulations - Astronomy
       The system I studied, 253990973 is a binary star system whose exoplanet is tidally locked to the larger, dimmer star.
   </div>
   <div>
-    <img src="/static/assets/img/mcmcfile.png" alt="Transit Graph" width="550">
+    <img src="/static/assets/img/mcmcfile.png" alt="Transit Graph" width="1050">
   </div>
 </div>
 
@@ -22,22 +22,40 @@ Applied Physics - Simulations - Astronomy
 ## Skills
 Applied Physics - Circuit Design - Prototyping
 ### Description and Outcome
-The Weizmann Institute of Science runs an annual international physics competition in which students build physics puzzle boxes. I participated in this competition in 2023. The objective of the competition is to build a safe that no other team can open, and they are scored on difficulty and the contestant’s understanding of underlying physics principles.
-
-Our puzzles consisted of two circuits that had to be completed: one required the contestants to drain a pythagoras cup of salt water into the well, which then completed the first circuit, illuminating one of the two LEDs. The second required shining a light on a photoresistor with a mounted laser through a hedge maze. This required chosing the correct mirrors from those we provided and placing each in the correct position, refecting the laser onto the photoresistor, illuminating the second LED.
-
-Our safe won the competition in Canada, qualifying for the international competition held at the headquarters of the Weizmann Institute.
+<div style="display: flex; align-items: center; gap: 20px;">
+  <div style="flex: 1;">
+    <p>
+    The Weizmann Institute of Science runs an annual international physics competition in which students build physics puzzle boxes. I participated in this competition in 2023. The objective of the competition is to build a safe that no other team can open, and they are scored on difficulty and the contestant’s understanding of underlying physics principles.
+    <p>
+    Our puzzles consisted of two circuits that had to be completed: one required the contestants to drain a pythagoras cup of salt water into the well, which then completed the first circuit, illuminating one of the two LEDs. The second required shining a light on a photoresistor with a mounted laser through a hedge maze. This required chosing the correct mirrors from those we provided and placing each in the correct position, refecting the laser onto the photoresistor, illuminating the second LED.
+    <p>
+    Our safe won the competition in Canada, qualifying for the international competition held at the headquarters of the Weizmann Institute.
+  </div>
+  <div>
+    <img src="/static/assets/img/weizmannpicture.png" alt="Weizmann Team Canada" width="1050">
+  </div>
+</div>
 
 # 3. Solar Powered Phone Charger 
 ## 2023 
 ## Skills
 Circuit Design - Prototyping - Soldering
 ## Description and Outcome
-For this project, my teammates and I built a solar-powered phone charger that is fully collapsible. I was primarily responsible
-for the case, which I designed, prototyped, and then 3D printed and assembled. Despite this, my teammates and I worked
-closely on every apect of the project, which involved the circuit design for the panels, programming the display showing their output and monitoring the device, and fabricating the actual folding case. This project taught me that although
-work can be divided between team members, one must nonetheless work closely with teammates and understand their work
-for a project to be successful.
+<div style="display: flex; align-items: center; gap: 20px;">
+  <div style="flex: 1;">
+    <p>
+    For this project, my teammates and I built a solar-powered phone charger that is fully collapsible. I was primarily responsible for the case, which I designed, prototyped, and then 3D printed and assembled. 
+    <p>
+    Despite this, my teammates and I worked closely on every apect of the project, which involved the circuit design for the panels, programming the display showing their output and monitoring the device, and fabricating the actual folding case. 
+    <p>
+    This project taught me that although work can be divided between team members, one must nonetheless work closely with teammates and understand their work for a project to be successful.
+  </div>
+  <div>
+    <img src="/static/assets/img/solarpoweredcharger.png" alt="Solar Powered Phone Charger" width="1050">
+  </div>
+</div>
+
+
 
 
 # 4. Robot for ENPH 253 
