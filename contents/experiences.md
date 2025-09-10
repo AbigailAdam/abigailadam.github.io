@@ -1,21 +1,21 @@
-# Co-op
-## Date From - Date To
+# Co-op - Jablonsky Ast and Partners
+## January - May 2025
 ## Skills
-### Description
-### Outcome
+Technical Reading/Writing - Teamwork - Presentations
+### Description and Outcome
 
-# Technion 
-## Date From - Date To
+
+# Technion - International Undergraduate Summer Research Program
+## July 2024
 ## Skills
-### Description
-### Outcome
+Applied Math - Particle Physics - Work-based Learning
+### Description and Outcome
 
 
-# Design Team 
-## Date From - Date To
+# Design Team - Agroponics UBC
+## September 2024 - present
 ## Skills
-### Description
-### Outcome
+Python - C++ - Java
+### Description and Outcome
 
 
-~ put an image in side by side with the text ~
