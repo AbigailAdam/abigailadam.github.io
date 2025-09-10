@@ -13,7 +13,7 @@ Applied Physics - Simulations - Astronomy
       The system I studied, 253990973 is a binary star system whose exoplanet is tidally locked to the larger, dimmer star.
   </div>
   <div>
-    <img src="/static/assets/img/mcmcfile.png" alt="Transit Graph" width="1050">
+    <img src="/static/assets/img/mcmcfile.png" alt="Transit Graph" width="550">
   </div>
 </div>
 
@@ -32,7 +32,7 @@ Applied Physics - Circuit Design - Prototyping
     Our safe won the competition in Canada, qualifying for the international competition held at the headquarters of the Weizmann Institute.
   </div>
   <div>
-    <img src="/static/assets/img/weizmannpicture.png" alt="Weizmann Team Canada" width="1050">
+    <img src="/static/assets/img/weizmannpicture.png" alt="Weizmann Team Canada" width="550">
   </div>
 </div>
 
@@ -51,7 +51,7 @@ Circuit Design - Prototyping - Soldering
     This project taught me that although work can be divided between team members, one must nonetheless work closely with teammates and understand their work for a project to be successful.
   </div>
   <div>
-    <img src="/static/assets/img/solarpoweredcharger.png" alt="Solar Powered Phone Charger" width="1050">
+    <img src="/static/assets/img/solarpoweredcharger.png" alt="Solar Powered Phone Charger" width="550">
   </div>
 </div>
 
