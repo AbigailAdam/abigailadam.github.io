@@ -39,7 +39,7 @@ Applied Physics - Circuit Design - Prototyping
 # 3. Solar Powered Phone Charger 
 ## 2023 
 ## Skills
-Circuit Design - Prototyping - Soldering
+Circuit Design - Prototyping - Engineering Design
 ## Description and Outcome
 <div style="display: flex; align-items: center; gap: 20px;">
   <div style="flex: 1;">
@@ -55,8 +55,13 @@ Circuit Design - Prototyping - Soldering
   </div>
 </div>
 
-
-
-
-# 4. Robot for ENPH 253 
-
+# 4. Autonomous Robot for ENPH 253 
+## 2025
+## Skills
+PCB Design (KiCAD) - Prototyping - C++
+## Description and Outcome
+- mention this was for school
+- fully autonomous robot
+- link to comp website
+- put in pics of robot and my h bridge
+- link to the github
