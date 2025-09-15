@@ -65,3 +65,103 @@ PCB Design (KiCAD) - Prototyping - C++
 - link to comp website
 - put in pics of robot and my h bridge
 - link to the github
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fake Textbox Modal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Fake textbox (click trigger) */
+    .fake-textbox {
+      display: inline-block;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 200px;
+      cursor: pointer;
+      background-color: #fff;
+    }
+    .fake-textbox:hover {
+      background-color: #f0f0f0;
+    }
+
+    /* Modal background */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    /* Modal box */
+    .modal-content {
+      background: #fff;
+      margin: 10% auto;
+      padding: 20px;
+      border-radius: 8px;
+      width: 50%;
+      max-width: 500px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+
+    /* Close button */
+    .close {
+      float: right;
+      font-size: 24px;
+      font-weight: bold;
+      color: #888;
+      cursor: pointer;
+    }
+    .close:hover {
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Fake textbox -->
+  <div id="openModal" class="fake-textbox">Click me</div>
+
+  <!-- Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Popup Content</h2>
+      <p>This box can hold text, images, or anything else you want.</p>
+      <img src="https://via.placeholder.com/400x200" alt="Example">
+    </div>
+  </div>
+
+  <script>
+    const modal = document.getElementById("myModal");
+    const openBtn = document.getElementById("openModal");
+    const closeBtn = document.querySelector(".close");
+
+    // Show modal
+    openBtn.onclick = () => modal.style.display = "block";
+
+    // Close modal with X
+    closeBtn.onclick = () => modal.style.display = "none";
+
+    // Close when clicking outside content
+    window.onclick = (event) => {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+</html>
+
