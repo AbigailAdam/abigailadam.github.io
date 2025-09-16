@@ -65,3 +65,16 @@ PCB Design (KiCAD) - Prototyping - C++
 - link to comp website
 - put in pics of robot and my h bridge
 - link to the github
+
+<!-- Trigger -->
+<div class="fake-textbox" data-modal-target="myModal1">Click Me</div>
+
+<!-- Modal -->
+<div id="myModal1" class="custom-modal">
+  <div class="custom-modal-content">
+    <span class="modal-close">&times;</span>
+    <h2>Popup Content</h2>
+    <p>This box can hold text, images, or anything else you want.</p>
+    <img src="https://via.placeholder.com/400x200" alt="Example">
+  </div>
+</div>
