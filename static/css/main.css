@@ -228,8 +228,10 @@ section .main-body {
   margin: 10% auto;
   padding: 20px;
   border-radius: 8px;
-  width: 80%;
+  width: 90%;
   max-width: 1000px;
+  max-height: 80vh; /* Keeps popup from exceeding the screen's height */
+  overflow-y: auto; /* Enables scroll inside the popup */
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   text-align: center;
 }
