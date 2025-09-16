@@ -65,7 +65,7 @@ PCB Design (KiCAD) - Prototyping - C++
     <p>  
       The system I studied, 253990973 is a binary star system whose exoplanet is tidally locked to the larger, dimmer star.
       </p>
-    <img src="/static/assets/img/mcmcfile.png" alt="Example">
+    <img src="/static/assets/img/mcmcfile.png" alt="Transit Graph">
   </div>
 </div>
 
