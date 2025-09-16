@@ -49,34 +49,35 @@ window.addEventListener('DOMContentLoaded', event => {
             .then(markdown => {
                 const html = marked.parse(markdown);
                 document.getElementById(name + '-md').innerHTML = html;
-            }).then(() => {
+            })
+            .then(() => {
                 // MathJax
                 MathJax.typeset();
+
+                // --- Modal functionality (AFTER markdown is injected) ---
+                document.querySelectorAll("[data-modal-target]").forEach(trigger => {
+                    trigger.addEventListener("click", () => {
+                        const modalId = trigger.getAttribute("data-modal-target");
+                        const modal = document.getElementById(modalId);
+                        if (modal) modal.style.display = "block";
+                    });
+                });
+
+                // Close buttons
+                document.querySelectorAll(".modal-close").forEach(btn => {
+                    btn.addEventListener("click", () => {
+                        btn.closest(".custom-modal").style.display = "none";
+                    });
+                });
+
+                // Close when clicking outside modal content
+                window.addEventListener("click", (event) => {
+                    if (event.target.classList.contains("custom-modal")) {
+                        event.target.style.display = "none";
+                    }
+                });
             })
             .catch(error => console.log(error));
     })
 
-    // --- Modal functionality ---
-    // Support multiple modals per page
-    document.querySelectorAll("[data-modal-target]").forEach(trigger => {
-        trigger.addEventListener("click", () => {
-            const modalId = trigger.getAttribute("data-modal-target");
-            const modal = document.getElementById(modalId);
-            if (modal) modal.style.display = "block";
-        });
-    });
-
-    // Close buttons
-    document.addEventListener("click", (event) => {
-        if (event.target.classList.contains("modal-close")) {
-            event.target.closest(".custom-modal").style.display = "none";
-        }
-    });
-
-    // Close when clicking outside modal content
-    window.addEventListener("click", (event) => {
-        if (event.target.classList.contains("custom-modal")) {
-            event.target.style.display = "none";
-        }
-    });
 });
