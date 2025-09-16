@@ -1,9 +1,6 @@
-
-
 const content_dir = 'contents/'
 const config_file = 'config.yml'
 const section_names = ['home', 'experiences', 'projects', 'resume']
-
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -29,7 +26,6 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-
     // Yaml
     fetch(content_dir + config_file)
         .then(response => response.text())
@@ -41,11 +37,9 @@ window.addEventListener('DOMContentLoaded', event => {
                 } catch {
                     console.log("Unknown id and value: " + key + "," + yml[key].toString())
                 }
-
             })
         })
         .catch(error => console.log(error));
-
 
     // Marked
     marked.use({ mangle: false, headerIds: false })
@@ -62,4 +56,27 @@ window.addEventListener('DOMContentLoaded', event => {
             .catch(error => console.log(error));
     })
 
-}); 
+    // --- Modal functionality ---
+    // Support multiple modals per page
+    document.querySelectorAll("[data-modal-target]").forEach(trigger => {
+        trigger.addEventListener("click", () => {
+            const modalId = trigger.getAttribute("data-modal-target");
+            const modal = document.getElementById(modalId);
+            if (modal) modal.style.display = "block";
+        });
+    });
+
+    // Close buttons
+    document.addEventListener("click", (event) => {
+        if (event.target.classList.contains("modal-close")) {
+            event.target.closest(".custom-modal").style.display = "none";
+        }
+    });
+
+    // Close when clicking outside modal content
+    window.addEventListener("click", (event) => {
+        if (event.target.classList.contains("custom-modal")) {
+            event.target.style.display = "none";
+        }
+    });
+});
