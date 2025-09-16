@@ -1,22 +1,3 @@
-# 1. Exoplanet Characterisation
-## 2022
-## Skills
-Applied Physics - Simulations - Astronomy 
-### Description and Outcome
-<div style="display: flex; align-items: center; gap: 20px;">
-  <div style="flex: 1;">
-    <p>
-      In the summer of 2022, I participated in Harvard's summer school program. As part of that program, I took a course entitled Astronomy: The Life and Death of Stars. In this class, we explored the beginnings of the universe, the life cycle of stars, and the nature of exoplanet detection and planet formation. For my final project, I used publicly available data and software developed by my professor to model a solar system and verify that there is an exoplanet orbiting in it. This is done by analyzing periodic decreases in the detected brightness of stars, as these periodic changes are suggestive of something in orbit eclipsing the star.
-    <p>  
-      After I was satisfied with the model, I had to interpret the dozens of graphs the program created and use them to determine the characteristics of the planet and its star. This project involved interacting with software and writing a [technical report](https://drive.google.com/file/d/1xTxBpl6BDuQzn3yw4_8OyXE1H1EhJcpb/view) on the process and findings.
-    <p>  
-      The system I studied, 253990973 is a binary star system whose exoplanet is tidally locked to the larger, dimmer star.
-  </div>
-  <div>
-    <img src="/static/assets/img/mcmcfile.png" alt="Transit Graph" width="550">
-  </div>
-</div>
-
 # 2. Weizmann Institute Safe 
 ## 2023
 ## Skills
@@ -67,14 +48,26 @@ PCB Design (KiCAD) - Prototyping - C++
 - link to the github
 
 <!-- Trigger -->
-<div class="fake-textbox" data-modal-target="myModal1">Click Me</div>
+<div class="fake-textbox" data-modal-target="myModal1">Exoplanet Characterisation</div>
 
 <!-- Modal -->
 <div id="myModal1" class="custom-modal">
   <div class="custom-modal-content">
     <span class="modal-close">&times;</span>
     <h2>Popup Content</h2>
-    <p>This box can hold text, images, or anything else you want.</p>
-    <img src="https://via.placeholder.com/400x200" alt="Example">
+    # 1. Exoplanet Characterisation
+    ## 2022
+    ## Skills
+    Applied Physics - Simulations - Astronomy 
+    ## Description and Outcome
+    <p> In the summer of 2022, I participated in Harvard's summer school program. As part of that program, I took a course entitled Astronomy: The Life and Death of Stars. In this class, we explored the beginnings of the universe, the life cycle of stars, and the nature of exoplanet detection and planet formation. For my final project, I used publicly available data and software developed by my professor to model a solar system and verify that there is an exoplanet orbiting in it. This is done by analyzing periodic decreases in the detected brightness of stars, as these periodic changes are suggestive of something in orbit eclipsing the star.
+    <p>  
+      After I was satisfied with the model, I had to interpret the dozens of graphs the program created and use them to determine the characteristics of the planet and its star. This project involved interacting with software and writing a [technical report](https://drive.google.com/file/d/1xTxBpl6BDuQzn3yw4_8OyXE1H1EhJcpb/view) on the process and findings.
+    <p>  
+      The system I studied, 253990973 is a binary star system whose exoplanet is tidally locked to the larger, dimmer star.
+      </p>
+    <img src="/static/assets/img/mcmcfile.png" alt="Example">
   </div>
 </div>
+
+   
