@@ -206,6 +206,8 @@ section .main-body {
   width: fit-content;
   cursor: pointer;
   background-color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
 }
 .fake-textbox:hover {
   background-color: #f0f0f0;
