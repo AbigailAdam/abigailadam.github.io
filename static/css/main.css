@@ -208,6 +208,7 @@ section .main-body {
   background-color: #fff;
   font-size: 2rem;
   font-weight: bold;
+  color: var(--subtitle-color);   /* change this to any color */
 }
 .fake-textbox:hover {
   background-color: #f0f0f0;
