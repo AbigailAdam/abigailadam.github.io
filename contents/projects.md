@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-
-
       <!-- Trigger -->
       <div class="fake-textbox" data-modal-target="myModal1">Exoplanet Characterisation</div>
 
