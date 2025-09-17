@@ -2,29 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Two Columns</title>
-  <style>
-    .container {
-      display: grid;
-      grid-template-columns: 1fr 1fr; /* two equal columns */
-      gap: 20px;
-    }
-    .column {
-      padding: 20px;
-      border: 1px solid #ccc;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="column">
-      <h2>Projects</h2>
-      <!-- nothing here -->
-    </div>
 
-    <div class="column">
-      <h2><!-- nothing here --></h2>
 
       <!-- Trigger -->
       <div class="fake-textbox" data-modal-target="myModal1">Exoplanet Characterisation</div>
@@ -128,8 +106,3 @@
           <img src="/static/assets/img/enph253robot.png" alt="ENPH 253 Robot">
         </div>
       </div>
-
-    </div>
-  </div>
-</body>
-</html>
