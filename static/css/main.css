@@ -259,4 +259,22 @@ section .main-body {
   color: #000;
 }
 
+/* ===========================
+   Figures & Captions
+=========================== */
+figure {
+  text-align: center;      /* center image + caption */
+  margin: 1.5em 0;         /* space above and below */
+}
+
+figcaption {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;        /* light like body text */
+  font-size: 0.9rem;       /* slightly smaller than body */
+  line-height: 1.4;
+  color: var(--main-text-color);
+  margin-top: 0.5em;
+  font-style: italic;      /* optional, makes it feel "captiony" */
+}
+
 
