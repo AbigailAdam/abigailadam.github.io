@@ -32,7 +32,7 @@
     <h3>Description and Outcome</h3>
     <p> The International Undergraduate Summer Research Program is run by the Technion each year, and it gives students from around the world the opportuntity to be involved in cutting edge scientific research. 
     <p> 
-    I worked with the High Energy Physics Group, supervised by Professor [Yotam Soreq](https://phsites.technion.ac.il/hep/members/yotam-soreq/ "Yotam Soreq"). 
+    I worked with the High Energy Physics Group, supervised by Professor  <a href="https://phsites.technion.ac.il/hep/members/yotam-soreq/" target="_blank" title="Yotam Soreq">Yotam Soreq</a>.
     <p>
     In this role, I learned a lot about particle physics and the applied mathematics involved in Dr. Soreq's work. However, my main task was analyzing the electrical and mechanical functioning of instruments used in high energy physics experiments to evaluate their relevance to Dr. Soreq’s research. 
       </p>
