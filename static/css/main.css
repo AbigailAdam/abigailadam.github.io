@@ -301,3 +301,32 @@ figcaption {
   color: var(--main-text-color);
   white-space: nowrap;
 }
+
+.fake-textbox .thumbs {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 images side-by-side */
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.fake-textbox .thumbs img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: contain;
+}
+
+.fake-textbox .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: var(--subtitle-color);
+}
+
+/* Stack images vertically on smaller screens */
+@media (max-width: 600px) {
+  .fake-textbox .thumbs {
+    grid-template-columns: 1fr;
+  }
+}

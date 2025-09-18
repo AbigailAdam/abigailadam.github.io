@@ -111,6 +111,10 @@
 
 <!-- Trigger -->
 <div class="fake-textbox" data-modal-target="myModal4">ENPH 253 Robot
+<div class="thumbs">
+    <img src="/static/assets/img/enph253_robot1.png" alt="ENPH 253 Robot">
+    <img src="/static/assets/img/hbridge.png" alt="H-Bridge PCB">
+  </div>
 <div class="skills">
     <ul>
       <li>PCB Design (KiCAD)</li>
