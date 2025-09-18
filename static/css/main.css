@@ -203,7 +203,9 @@ section .main-body {
   border: 1px solid #ccc;
   border-radius: 4px;
   min-width: 500px;
-  width: fit-content;
+  /*width: fit-content; */
+  width: 350px;    /* pick a size that fits your content */
+  height: 400px;   /* consistent height */
   cursor: pointer;
   background-color: #fff;
   font-size: 2rem;
