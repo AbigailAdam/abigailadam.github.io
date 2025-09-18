@@ -1,5 +1,9 @@
 <!-- Trigger -->
 <div class="fake-textbox" data-modal-target="myModal1">Exoplanet Characterisation
+<div class="thumbs">
+    <img src="/static/assets/img/mcmcfile.png" alt="mcmc file">
+    <img src="/static/assets/img/tesslogo.png" alt="TESS Logo">
+  </div>
 <div class="skills">
     <ul>
       <li>Applied Physics</li>
@@ -31,12 +35,15 @@
           <p>
             The system I studied, 253990973, is a binary star system whose exoplanet is tidally locked to the larger, dimmer star.
           </p>
-        <img src="/static/assets/img/mcmcfile.png" alt="Transit Graph">
     </div>
 </div>
 
 <!-- Trigger -->
 <div class="fake-textbox" data-modal-target="myModal2">Weizmann Institute Safe
+<div class="thumbs">
+    <img src="/static/assets/img/weizmannpicture.png" alt="mcmc file">
+    <img src="/static/assets/img/weizmann-logo.png" alt="TESS Logo">
+  </div>
 <div class="skills">
     <ul>
       <li>Applied Physics</li>
@@ -70,12 +77,15 @@
             Our safe won the competition in Canada, qualifying for the international competition held at the 
             headquarters of the Weizmann Institute.
           </p>
-        <img src="/static/assets/img/weizmannpicture.png" alt="Weizmann Team Canada">
     </div>
 </div>
 
 <!-- Trigger -->
 <div class="fake-textbox" data-modal-target="myModal3">Solar Powered Phone Charger
+<div class="thumbs">
+    <img src="/static/assets/img/solarpoweredcharger.png" alt="ENPH 253 Robot">
+    <img src="/static/assets/img/solarpanelsextended.png" alt="H-Bridge PCB">
+  </div>
 <div class="skills">
     <ul>
       <li>Circuit Design</li>
@@ -105,7 +115,6 @@
         This project taught me that although work can be divided between team members, one must nonetheless work 
         closely with teammates and understand their work for a project to be successful. 
       </p>
-      <img src="/static/assets/img/solarpoweredcharger.png" alt="Solar Powered Phone Charger">
     </div>
 </div>
 
@@ -142,8 +151,10 @@
       I wrote C++ libraries to communicate and process data from the many sensors we used and control our actuators. The github repo containing 
       the code for the project can be found  <a href="https://github.com/emajkic/ENPH_253_Robot" target="_blank" title="GitHub Repo">here</a>.
       </p>
+      <!--
       <img src="/static/assets/img/enph253_robot1.png" alt="ENPH 253 Robot">
             <img src="/static/assets/img/hbridge.png" alt="H-Bridge PCB">
+            -->
     </div>
 </div>
 
