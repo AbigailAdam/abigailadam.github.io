@@ -1,5 +1,13 @@
 <!-- Trigger -->
-<div class="fake-textbox" data-modal-target="myModal5">Co-op - Jablonsky Ast and Partners</div>
+<div class="fake-textbox" data-modal-target="myModal5">Co-op - Jablonsky Ast and Partners
+    <div class="skills">
+        <ul>
+          <li>Technical Reading/Writing</li>
+          <li>Teamwork</li>
+          <li>Presentations</li>
+        </ul>
+      </div>
+  </div>
 
 <!-- Modal -->
 <div id="myModal5" class="custom-modal">
@@ -19,7 +27,15 @@
 </div>
 
 <!-- Trigger -->
-<div class="fake-textbox" data-modal-target="myModal6">Technion - International Undergraduate Summer Research Program</div>
+<div class="fake-textbox" data-modal-target="myModal6">Technion - International Undergraduate Summer Research Program
+<div class="skills">
+    <ul>
+      <li>Applied Math</li>
+      <li>Particle Physics</li>
+      <li>Work-Based Learning</li>
+    </ul>
+  </div>
+</div>
 
 <!-- Modal -->
 <div id="myModal6" class="custom-modal">
@@ -44,7 +60,15 @@
 </div>
 
 <!-- Trigger -->
-<div class="fake-textbox" data-modal-target="myModal7">Design Team - Agroponics UBC</div>
+<div class="fake-textbox" data-modal-target="myModal7">Design Team - Agroponics UBC
+<div class="skills">
+    <ul>
+      <li>Python</li>
+      <li>C++</li>
+      <li>Java</li>
+    </ul>
+  </div>
+  </div>
 
 <!-- Modal -->
 <div id="myModal7" class="custom-modal">

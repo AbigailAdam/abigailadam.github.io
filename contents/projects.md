@@ -1,5 +1,13 @@
 <!-- Trigger -->
-<div class="fake-textbox" data-modal-target="myModal1">Exoplanet Characterisation</div>
+<div class="fake-textbox" data-modal-target="myModal1">Exoplanet Characterisation
+<div class="skills">
+    <ul>
+      <li>Applied Physics</li>
+      <li>Simulations</li>
+      <li>Astronomy</li>
+    </ul>
+  </div>
+  </div>
 
 <!-- Modal -->
 <div id="myModal1" class="custom-modal">
@@ -28,7 +36,15 @@
 </div>
 
 <!-- Trigger -->
-<div class="fake-textbox" data-modal-target="myModal2">Weizmann Institute Safe</div>
+<div class="fake-textbox" data-modal-target="myModal2">Weizmann Institute Safe
+<div class="skills">
+    <ul>
+      <li>Applied Physics</li>
+      <li>Circuit Design</li>
+      <li>Prototyping</li>
+    </ul>
+  </div>
+  </div>
 
 <!-- Modal -->
 <div id="myModal2" class="custom-modal">
@@ -59,7 +75,15 @@
 </div>
 
 <!-- Trigger -->
-<div class="fake-textbox" data-modal-target="myModal3">Solar Powered Phone Charger</div>
+<div class="fake-textbox" data-modal-target="myModal3">Solar Powered Phone Charger
+<div class="skills">
+    <ul>
+      <li>Circuit Design</li>
+      <li>Prototyping</li>
+      <li>Engineering Design</li>
+    </ul>
+  </div>
+  </div>
 
 <!-- Modal -->
 <div id="myModal3" class="custom-modal">
@@ -86,7 +110,15 @@
 </div>
 
 <!-- Trigger -->
-<div class="fake-textbox" data-modal-target="myModal4">ENPH 253 Robot</div>
+<div class="fake-textbox" data-modal-target="myModal4">ENPH 253 Robot
+<div class="skills">
+    <ul>
+      <li>PCB Design (KiCAD)</li>
+      <li>Prototyping</li>
+      <li>C++</li>
+    </ul>
+  </div>
+  </div>
 
 <!-- Modal -->
 <div id="myModal4" class="custom-modal">

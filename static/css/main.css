@@ -278,3 +278,26 @@ figcaption {
 }
 
 
+/* Skills inside fake-textbox buttons */
+.fake-textbox .skills {
+  margin-top: 8px;
+}
+
+.fake-textbox .skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fake-textbox .skills li {
+  background: #f0f0f0;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--main-text-color);
+  white-space: nowrap;
+}
