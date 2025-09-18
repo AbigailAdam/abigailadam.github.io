@@ -312,9 +312,9 @@ figcaption {
 
 .fake-textbox .thumbs img {
     width: 100%;
-    height: auto;
+    height: 180px; /* fixed image size */
     border-radius: 6px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .fake-textbox .title {
