@@ -36,7 +36,10 @@
     <p>
     In this role, I learned a lot about particle physics and the applied mathematics involved in Dr. Soreq's work. However, my main task was analyzing the electrical and mechanical functioning of instruments used in high energy physics experiments to evaluate their relevance to Dr. Soreq’s research. 
       </p>
+      <figure>
     <img src="/static/assets/img/technion.png" alt="Apparatus from [one such paper](https://arxiv.org/abs/2402.13257 "Apparatus from one of the papers I examined")">
+        <figcaption> Apparatus from [one such paper](https://arxiv.org/abs/2402.13257 "Apparatus from one of the papers I examined")
+        </figure>
   </div>
 </div>
 
@@ -56,8 +59,7 @@
 My role is working on communication between the components of our system. We have several ESP32s and a Raspberry Pi that form a server, hosted on the Raspberry Pi. These elements communicate using the MQTT framework, and will be used to both collect sensor data from the hydroponic system and send out instructions to our actuators. 
       </p>
     <figure>
-    <img src="/static/assets/img/technion.png" alt="Apparatus from [one such paper](https://arxiv.org/abs/2402.13257 "Apparatus from one of the papers I examined")">
-    <figcaption> Apparatus from [one such paper](https://arxiv.org/abs/2402.13257 "Apparatus from one of the papers I examined")
+    <img src="/static/assets/img/nft.png" alt="Hydroponics NFT">
     </figure>
   </div>
 </div>
