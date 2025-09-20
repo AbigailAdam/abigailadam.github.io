@@ -119,7 +119,7 @@
 </div>
 
 <!-- Trigger -->
-<div class="fake-textbox" data-modal-target="myModal4">ENPH 259 PI Servo Speed Control Circuit
+<div class="fake-textbox" data-modal-target="myModal4">ENPH 259 PI Control Circuit
 <div class="thumbs">
     <img src="/static/assets/img/FinalProject_Lab7.png" alt="Schematic Image">
     <img src="/static/assets/img/259circuit.png" alt="259 Circuit">
@@ -137,15 +137,15 @@
 <div id="myModal4" class="custom-modal">
     <div class="custom-modal-content">
       <span class="modal-close">&times;</span>
-      <h2>ENPH 259 Circuit</h2>
+      <h2>ENPH 259 PI Circuit</h2>
       <h3>2024</h3>
       <h3>Skills</h3>
       <p>Circuit Design - Prototyping - Electrical Design</p>
       <h3>Description and Outcome</h3>
       <p>
-      This project was completed for ENPH 259. In this course, we are taught circuit analysis and construction. The final project was constructing a PI speef controller for a servo motor. </p>
+      This project was completed for ENPH 259. In this course, we are taught circuit analysis and construction. The final project was constructing a PI speed controller for a servo motor. </p>
       <p>
-      This included building the circuit from scratch and learning how each component integrates, allowing the circuit to function. The design included operational amplifiers, counters, and various transistors, to name some of the components we utilised. As we went through the project, we completed a <a href="https://drive.google.com/file/d/1tOqwhmvbgvaCjIWR-5qgBVvp7aUhcFYC/view?usp=sharing" target="_blank" title="lab notebook">lab notebook</a> that chronicles all the lessons learned throughout the process. 
+      This included building the circuit from scratch and learning how each component integrates, allowing the circuit to function. The design included operational amplifiers, counters, and various transistors, to name some of the components we utilised. It also provided an introduction to control theory as the circuit we contructed performed PI control through hardware. As we went through the project, we completed a <a href="https://drive.google.com/file/d/1tOqwhmvbgvaCjIWR-5qgBVvp7aUhcFYC/view?usp=sharing" target="_blank" title="lab notebook">lab notebook</a> that chronicles all the lessons learned throughout the process. 
       </p>
     </div>
 </div>
