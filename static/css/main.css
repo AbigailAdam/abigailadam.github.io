@@ -332,3 +332,8 @@ figcaption {
     grid-template-columns: 1fr;
   }
 }
+
+/* PDF BACKGROUND CHANGING */ 
+iframe {
+  background: white; /* or any color */
+}
