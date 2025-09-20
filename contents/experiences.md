@@ -24,8 +24,8 @@
     <h3>Description and Outcome</h3>
     <p> This co-op was my first experience working at a large engineering firm responsible for many of the largest and most complex structural engineering projects in the GTA. In this role, I was mostly tasked with research, preparing responses to R.F.Ps (requests for proposals), and helping create and test models to predict rebar consumption on large projects.  
     <p> 
-    The research focused on examining the literature on top-down construction. Top-down construction is a method for building skyscrapers that has yet to be widely adopted in Canada. I presented the results of this research to senior partners to be used in pitches to future clients. 
-      </p>
+    The research focused on examining the literature on top-down construction. Top-down construction is a method for building skyscrapers that has yet to be widely adopted in Canada. It is much more time and space efficient, and as such has been adopted mostly in highly congested areas. It also involves foundation types well suited to weak and silty soils. I presented the results of this research to senior partners to be used in pitches to future clients. 
+    </p>
   </div>
 </div>
 
@@ -86,10 +86,10 @@
     <h3>Skills</h3>
     <p>Python - C++ - Java</p>
     <h3>Description and Outcome</h3>
-    <p> I have been a member of the automation subteam of <a href="https://ubcagroponics.com/" target="_blank" title="Agroponics UBC">Agroponics</a>. for a year. 
+    <p> I have been a member of the automation subteam of <a href="https://ubcagroponics.com/" target="_blank" title="Agroponics UBC">Agroponics</a> for a year. Our team's goal is to create a hydroponic system that can be controlled and monitored remotely while also having elements fully automated. This includes collecting data from the system, sending it to our main database, and creating visualisations. The other side is creating a control panel the plants subteam can use to alter system parameters (light exposure, the amount of nutrient solution in the water, etc.). 
     <p>
-My role is working on communication between the components of our system. We have several ESP32s and a Raspberry Pi that form a server, hosted on the Raspberry Pi. These elements communicate using the MQTT framework, and will be used to both collect sensor data from the hydroponic system and send out instructions to our actuators. 
-      </p>
+    My role is working on communication between the components of our system. We have several ESP32s and a Raspberry Pi that form a server, hosted on the Raspberry Pi. These elements communicate using the MQTT framework, and will be used to both collect sensor data from the hydroponic system and send out instructions to our actuators. 
+    </p>
   </div>
 </div>
 
