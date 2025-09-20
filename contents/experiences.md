@@ -1,5 +1,9 @@
 <!-- Trigger -->
 <div class="fake-textbox" data-modal-target="myModal5">Co-op - Jablonsky Ast and Partners
+<div class="thumbs">
+    <img src="/static/assets/img/Jablonsky-Ast-Logo.png" alt="JAP Logo">
+    <img src="/static/assets/img/tdc.png" alt="TDC Diagram">
+  </div>
     <div class="skills">
         <ul>
           <li>Technical Reading/Writing</li>
@@ -22,12 +26,15 @@
     <p> 
     The research focused on examining the literature on top-down construction. Top-down construction is a method for building skyscrapers that has yet to be widely adopted in Canada. I presented the results of this research to senior partners to be used in pitches to future clients. 
       </p>
-    <img src="/static/assets/img/Jablonsky-Ast-Logo.png" alt="JAP">
   </div>
 </div>
 
 <!-- Trigger -->
 <div class="fake-textbox" data-modal-target="myModal6">Technion - International Undergraduate Summer Research Program
+<div class="thumbs">
+    <img src="/static/assets/img/technion.png" alt="Apparatus I examined">
+    <img src="/static/assets/img/technionphysics.png" alt="Technion Physics Logo">
+  </div>
 <div class="skills">
     <ul>
       <li>Applied Math</li>
@@ -52,15 +59,15 @@
     <p>
     In this role, I learned a lot about particle physics and the applied mathematics involved in Dr. Soreq's work. However, my main task was analyzing the electrical and mechanical functioning of instruments used in high energy physics experiments to evaluate their relevance to Dr. Soreq’s research. 
       </p>
-      <figure>
-    <img src="/static/assets/img/technion.png" alt="Apparatus from [one such paper](https://arxiv.org/abs/2402.13257 "Apparatus from one of the papers I examined")">
-        <figcaption> Apparatus from [one such paper](https://arxiv.org/abs/2402.13257 "Apparatus from one of the papers I examined")
-        </figure>
   </div>
 </div>
 
 <!-- Trigger -->
 <div class="fake-textbox" data-modal-target="myModal7">Design Team - Agroponics UBC
+<div class="thumbs">
+    <img src="/static/assets/img/MQTT.png" alt="Server Layout">
+    <img src="/static/assets/img/nft.png" alt="NFT Image">
+  </div>
 <div class="skills">
     <ul>
       <li>Python</li>
@@ -79,12 +86,10 @@
     <h3>Skills</h3>
     <p>Python - C++ - Java</p>
     <h3>Description and Outcome</h3>
-    <p> I have been a member of the automation subteam of [Agroponics UBC](https://ubcagroponics.com/ "Agroponics UBC") for a year. 
+    <p> I have been a member of the automation subteam of <a href="https://ubcagroponics.com/" target="_blank" title="Agroponics UBC">Agroponics</a>. for a year. 
+    <p>
 My role is working on communication between the components of our system. We have several ESP32s and a Raspberry Pi that form a server, hosted on the Raspberry Pi. These elements communicate using the MQTT framework, and will be used to both collect sensor data from the hydroponic system and send out instructions to our actuators. 
       </p>
-    <figure>
-    <img src="/static/assets/img/nft.png" alt="Hydroponics NFT">
-    </figure>
   </div>
 </div>
 
