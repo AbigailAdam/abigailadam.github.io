@@ -1,6 +1,6 @@
 
 
-[![AbigailAdam](https://img.shields.io/badge/AbigailAdam-github-green?logo=github)](https://github.com/AbigailAdam)
+[AbigailAdam](https://img.shields.io/badge/AbigailAdam-github-green?logo=github)](https://github.com/AbigailAdam)
 
 #### Contact
 
