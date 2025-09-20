@@ -7,9 +7,9 @@
    Root Variables
 =========================== */
 :root {
-  --h-title-color: #205644;
+  --h-title-color: #4c507a;
   --main-text-color: #171c1f;
-  --subtitle-color: #205644;
+  --subtitle-color: #4c507a;
 }
 
 /* ===========================
@@ -190,7 +190,7 @@ section .main-body {
 
 /* Active link style */
 .nav-link.active {
-  color: #198754 !important;
+  color: #7a80c2 !important;
   font-weight: 700;
 }
 
