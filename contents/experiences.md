@@ -30,7 +30,7 @@
 </div>
 
 <!-- Trigger -->
-<div class="fake-textbox" data-modal-target="myModal6">Technion - International Undergraduate Summer Research Program
+<div class="fake-textbox" data-modal-target="myModal6">Technion - Summer Research Program
 <div class="thumbs">
     <img src="/static/assets/img/technion.png" alt="Apparatus I examined">
     <img src="/static/assets/img/technionphysics.png" alt="Technion Physics Logo">
