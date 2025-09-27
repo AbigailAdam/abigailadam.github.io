@@ -154,7 +154,7 @@
 
 
 <!-- Trigger -->
-<div class="fake-textbox" data-modal-target="myModal4">ENPH 253 Robot
+<div class="fake-textbox" data-modal-target="myModal5">ENPH 253 Robot
 <div class="thumbs">
     <img src="/static/assets/img/enph253_robot1.png" alt="ENPH 253 Robot">
     <img src="/static/assets/img/hbridge.png" alt="H-Bridge PCB">
@@ -169,7 +169,7 @@
   </div>
 
 <!-- Modal -->
-<div id="myModal4" class="custom-modal">
+<div id="myModal5" class="custom-modal">
     <div class="custom-modal-content">
       <span class="modal-close">&times;</span>
       <h2>ENPH 253 Robot</h2>
