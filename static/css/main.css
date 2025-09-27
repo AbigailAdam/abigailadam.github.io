@@ -226,36 +226,20 @@ section .main-body {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-
-  /* Center modal box */
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Modal box */
 .custom-modal-content {
   background: #fff;
+  margin: 10% auto;
   padding: 20px;
-  border-radius: 12px;
-
-  /* Fixed height + consistent width */
-  height: 500px;       /* adjust as needed */
-  width: 600px;        /* baseline width */
-  max-width: 90vw;     /* shrink on small screens */
-  box-sizing: border-box;
-
-  overflow-y: auto;    /* scroll inside if content overflows */
+  border-radius: 8px;
+  width: 90%;
+  max-width: 1000px;
+  max-height: 80vh; /* Keeps popup from exceeding the screen's height */
+  overflow-y: auto; /* Enables scroll inside the popup */
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   text-align: center;
-}
-
-/* Make modals friendlier on very small screens */
-@media (max-width: 600px) {
-  .custom-modal-content {
-    height: auto;      /* let height grow naturally */
-    max-height: 90vh;  /* never exceed viewport height */
-  }
 }
 
 .custom-modal-content img {
