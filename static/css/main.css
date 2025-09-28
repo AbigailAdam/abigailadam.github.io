@@ -338,3 +338,14 @@ figcaption {
 iframe {
   background: white; /* or any color */
 }
+
+/* FOOTER TEXT */ 
+.custom-footer {
+  color: #4c507a;  /* your custom text color */
+}
+
+.custom-footer a {
+  color: #4c507a;       /* make links the same color */
+  text-decoration: none; /* optional: remove underline */
+}
+
