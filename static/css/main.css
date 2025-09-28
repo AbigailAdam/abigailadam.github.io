@@ -345,7 +345,7 @@ iframe {
 }
 
 .custom-footer a {
-  color: #4c507a;       /* make links the same color */
+  color: #4c507a !important;       /* make links the same color */
   text-decoration: none; /* optional: remove underline */
 }
 
