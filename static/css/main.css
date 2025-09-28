@@ -341,7 +341,7 @@ iframe {
 
 /* FOOTER TEXT */ 
 .custom-footer {
-  color: #4c507a;  /* your custom text color */
+  color: #4c507a !important;  /* your custom text color */
 }
 
 .custom-footer a {
