@@ -187,16 +187,16 @@ section .main-body {
 #avatar {
   position: absolute;
   bottom: -50px;                /* moves it slightly below banner bottom */
-  left: 50%;                    /* centers horizontally */
+  left: 75%;                    /* centers horizontally */
   transform: translateX(-50%);
-  z-index: 2;                   /* keeps above banner but below nav/footer */
+  z-index: 4;                   /* keeps above banner but below nav/footer */
 }
 
 #avatar img {
   width: 180px;                 /* adjust size to your preference */
   height: auto;
-  border-radius: 50%;          /* circular avatar */
-  border: 4px solid white;     /* white border ring */
+  border-radius: 0;          
+  /* border: 4px solid white;     /* white border ring */
   box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
 }
 
