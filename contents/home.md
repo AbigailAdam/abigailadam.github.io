@@ -5,6 +5,9 @@
   <a href="https://www.linkedin.com/in/abigail-adam-b086b0249/" target="_blank">
     <img src="/static/assets/img/linkedin_2.png" alt="LinkedIn" style="width:40px; height:40px; object-fit:contain;">
   </a>
+  <a href="acadam00@gmail.com" target="_blank">
+    <img src="/static/assets/img/gmail.png" alt="Email" style="width:40px; height:40px; object-fit:contain;">
+  </a>
 </div>
 
 #### Contact
