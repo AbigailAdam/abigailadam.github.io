@@ -186,9 +186,9 @@ section .main-body {
 =========================== */
 #avatar {
   position: absolute;
-  bottom: -50px;                /* moves it slightly below banner bottom */
+  bottom: -20px;                /* moves it slightly below banner bottom */
   left: 75%;                    /* centers horizontally */
-  transform: translateX(-50%);
+  /* transform: translateX(-50%); */
   z-index: 4;                   /* keeps above banner but below nav/footer */
 }
 
