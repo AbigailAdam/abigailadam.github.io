@@ -186,19 +186,25 @@ section .main-body {
 =========================== */
 #avatar {
   position: absolute;
-  bottom: -20px;                /* moves it slightly below banner bottom */
-  left: 75%;                    /* centers horizontally */
-  /* transform: translateX(-50%); */
-  z-index: 32;                   /* keeps above banner but below nav/footer */
+  top: 0;
+  left: 75%;
+  height: 25rem;              /* same as banner height */
+  transform: translateX(-50%);
+  z-index: 32;
 }
 
 #avatar img {
-  width: auto;                 /* adjust size to your preference */
+  position: absolute;
+  top: 50%;
+  left: 50%;
   height: 100%;
-  border-radius: 0;          
-  /* border: 4px solid white;     /* white border ring */
+  width: auto;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
 }
+
+
 
 
 
