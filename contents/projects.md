@@ -20,7 +20,7 @@
         <h2>Exoplanet Characterisation</h2>
         <h3>2022</h3>
         <h3>Skills</h3>
-        <p>Applied Physics - Simulations - Astronomy</p>
+        <h6>Applied Physics - Simulations - Astronomy</h6>
         <h3>Description and Outcome</h3>
         <p> In the summer of 2022, I participated in Harvard's summer school program. As part of that program, I took a course entitled Astronomy: The Life and Death of Stars. In this class, we explored the beginnings of the universe, the life cycle of stars, and the nature of exoplanet detection and planet formation. </p>
           <p>
@@ -60,7 +60,7 @@
           <h2>Weizmann Institute Safe</h2>
           <h3>2023</h3>
           <h3>Skills</h3>
-          <p>Applied Physics - Circuit Design - Prototyping</p>
+          <h6>Applied Physics - Circuit Design - Prototyping</h6>
           <h3>Description and Outcome</h3>
           <p>
             The Weizmann Institute of Science runs an annual international physics competition in which students build 
@@ -102,7 +102,7 @@
       <h2>Solar Powered Phone Charger</h2>
       <h3>2023</h3>
       <h3>Skills</h3>
-      <p>Circuit Design - Prototyping - Engineering Design</p>
+      <h6>Circuit Design - Prototyping - Engineering Design</h6>
       <h3>Description and Outcome</h3>
       <p>
         For this project, my teammates and I built a solar-powered phone charger that is fully collapsible. I 
@@ -137,7 +137,7 @@
       <h2>ENPH 259 PI Circuit</h2>
       <h3>2024</h3>
       <h3>Skills</h3>
-      <p>Circuit Design - Prototyping - Electrical Design</p>
+      <h6>Circuit Design - Prototyping - Electrical Design</h6>
       <h3>Description and Outcome</h3>
       <p>
       This project was completed for ENPH 259. In this course, we are taught circuit analysis and construction. The final project was constructing a PI speed controller for a servo motor. </p>
@@ -172,7 +172,7 @@
       <h2>ENPH 253 Robot</h2>
       <h3>2025</h3>
       <h3>Skills</h3>
-      <p>PCB Design (KiCAD) - Prototyping - C++</p>
+      <h6>PCB Design (KiCAD) - Prototyping - C++</h6>
       <h3>Description and Outcome</h3>
       <p>
       This project was completed for ENPH 253. In this course, students form teams and build autonomous robots to participate in a competition. The  <a href="https://projectlab.engphys.ubc.ca/enph-253-2025/" target="_blank" title="2025 Competition">2025 competition</a> involved the robots collecting Beanie Babies from various positions along an obstacle course and returning them to a safe zone. </p>
