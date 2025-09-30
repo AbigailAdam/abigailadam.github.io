@@ -110,10 +110,7 @@
       <p>
         Despite this, my teammates and I worked closely on every aspect of the project, which involved the circuit 
         design for the panels, programming the display showing their output and monitoring the device, and fabricating 
-        the actual folding case. </p>
-      <p>
-        This project taught me that although work can be divided between team members, one must nonetheless work 
-        closely with teammates and understand their work for a project to be successful. 
+        the actual folding case. 
       </p>
     </div>
 </div>
@@ -145,7 +142,7 @@
       <p>
       This project was completed for ENPH 259. In this course, we are taught circuit analysis and construction. The final project was constructing a PI speed controller for a servo motor. </p>
       <p>
-      This included building the circuit from scratch and learning how each component integrates, allowing the circuit to function. The design included operational amplifiers, counters, and various transistors, to name some of the components we utilised. It also provided an introduction to control theory as the circuit we contructed performed PI control through hardware. As we went through the project, we completed a <a href="https://drive.google.com/file/d/1tOqwhmvbgvaCjIWR-5qgBVvp7aUhcFYC/view?usp=sharing" target="_blank" title="lab notebook">lab notebook</a> that chronicles all the lessons learned throughout the process. 
+      This included building the circuit from scratch and learning how each component integrates, allowing the circuit to function. The design included operational amplifiers, counters, and various transistors. It also provided an introduction to control theory as the circuit we constructed performed PI control through hardware. As we went through the project, we completed a <a href="https://drive.google.com/file/d/1tOqwhmvbgvaCjIWR-5qgBVvp7aUhcFYC/view?usp=sharing" target="_blank" title="lab notebook">lab notebook</a> that chronicles all the lessons learned throughout the process. 
       </p>
     </div>
 </div>
@@ -178,8 +175,7 @@
       <p>PCB Design (KiCAD) - Prototyping - C++</p>
       <h3>Description and Outcome</h3>
       <p>
-      This project was completed for ENPH 253, otherwise known as Robot Summer. In this course, students form teams and 
-      build autonomous robots to participate in a competition. The  <a href="https://projectlab.engphys.ubc.ca/enph-253-2025/" target="_blank" title="2025 Competition">2025 competition</a> involved the robots collecting Beanie Babies from various positions along an obstacle course and returning them to a safe zone. </p>
+      This project was completed for ENPH 253. In this course, students form teams and build autonomous robots to participate in a competition. The  <a href="https://projectlab.engphys.ubc.ca/enph-253-2025/" target="_blank" title="2025 Competition">2025 competition</a> involved the robots collecting Beanie Babies from various positions along an obstacle course and returning them to a safe zone. </p>
       <p>
       My responsibilities focused on the electrical and software design of our robot. The electrical side 
       involved designing our H-Bridge PCBs, power distribution, and claw integration circuits. For the software, 
