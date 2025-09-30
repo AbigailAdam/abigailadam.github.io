@@ -189,7 +189,7 @@ section .main-body {
   bottom: -20px;                /* moves it slightly below banner bottom */
   left: 75%;                    /* centers horizontally */
   /* transform: translateX(-50%); */
-  z-index: 8;                   /* keeps above banner but below nav/footer */
+  z-index: 16;                   /* keeps above banner but below nav/footer */
 }
 
 #avatar img {
