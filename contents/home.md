@@ -12,7 +12,7 @@
 Email: acadam00@gmail.com 
 
 #### Education
-Bachelors of Applied Science in Engineering Physics, University of British Columbia, 2023-2028. 
+Bachelors of Applied Science in Engineering Physics, Minor in Physics, University of British Columbia, 2023-2028. 
 
 #### Interests
 Applied Physics, Applied Math, PCB Design, Electrical Engineering. 

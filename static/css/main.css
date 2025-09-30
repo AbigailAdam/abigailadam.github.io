@@ -61,6 +61,7 @@ h6 { font-size: 0.75rem; }
   background-position: center;
   background-size: cover;
   height: 25rem;
+  overflow: hidden; 
 }
 
 .top-section:before {
@@ -155,7 +156,7 @@ section .main-body {
 
 /* ===========================
    Avatar
-=========================== */
+=========================== 
 #avatar {
   position: relative;
   height: 0;
@@ -177,6 +178,30 @@ section .main-body {
     margin: 0;
   }
 }
+
+*/
+
+/* ===========================
+   Avatar (Fixed on Banner)
+=========================== */
+#avatar {
+  position: absolute;
+  bottom: -50px;                /* moves it slightly below banner bottom */
+  left: 50%;                    /* centers horizontally */
+  transform: translateX(-50%);
+  z-index: 2;                   /* keeps above banner but below nav/footer */
+}
+
+#avatar img {
+  width: 180px;                 /* adjust size to your preference */
+  height: auto;
+  border-radius: 50%;          /* circular avatar */
+  border: 4px solid white;     /* white border ring */
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+}
+
+
+
 
 /* Style all navbar links */
 .nav-link {
