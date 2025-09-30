@@ -10,9 +10,8 @@
   </a>
 </div>
 
-#### Contact
-
-Email: acadam00@gmail.com 
+#### About Me 
+Blah blah blah
 
 #### Education
 Bachelors of Applied Science in Engineering Physics, Minor in Physics, University of British Columbia, 2023-2028. 
