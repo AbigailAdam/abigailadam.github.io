@@ -5,13 +5,13 @@
   <a href="https://www.linkedin.com/in/abigail-adam-b086b0249/" target="_blank">
     <img src="/static/assets/img/linkedin_2.png" alt="LinkedIn" style="width:40px; height:40px; object-fit:contain;">
   </a>
-  <a href="acadam00@gmail.com" target="_blank">
+  <a href="mailto:acadam00@gmail.com" target="_blank">
     <img src="/static/assets/img/gmail.png" alt="Email" style="width:40px; height:40px; object-fit:contain;">
   </a>
 </div>
 
 #### About Me 
-Blah blah blah
+Hello! My name is Abigail Adam and I am a 3rd year student studying Engineering Physics at the University of British Columbia. 
 
 #### Education
 Bachelors of Applied Science in Engineering Physics, Minor in Physics, University of British Columbia, 2023-2028. 
