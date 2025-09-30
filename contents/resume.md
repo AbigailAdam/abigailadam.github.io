@@ -1,5 +1,5 @@
 <iframe 
-    src="static/assets/AbigailAdamResume_2025Version.pdf"
+    src="static/assets/AbigailAdamResume_2025_Updated copy.pdf"
     type="application/pdf" 
     width="100%" 
     height="600px" 
@@ -8,6 +8,6 @@
 
 <p>
   If the PDF doesn’t display, 
-  <a href="static/assets/AbigailAdamResume_2025Version.pdf"
+  <a href="static/assets/AbigailAdamResume_2025_Updated copy.pdf"
     type="application/pdf" >click here to download it.</a>
 </p>
