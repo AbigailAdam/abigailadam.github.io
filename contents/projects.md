@@ -116,41 +116,6 @@
 </div>
 
 <!-- Trigger -->
-<div class="fake-textbox" data-modal-target="myModal4">ENPH 259 PI Control Circuit
-<div class="thumbs">
-    <img src="/static/assets/img/FinalProject_Lab7.png" alt="Schematic Image">
-    <img src="/static/assets/img/259circuit.png" alt="259 Circuit">
-  </div>
-<div class="skills">
-    <ul>
-      <li>Circuit Design</li>
-      <li>Prototyping</li>
-      <li>Electrical Design</li>
-    </ul>
-  </div>
-  </div>
-
-<!-- Modal -->
-<div id="myModal4" class="custom-modal">
-    <div class="custom-modal-content">
-      <span class="modal-close">&times;</span>
-      <h2>ENPH 259 PI Circuit</h2>
-      <h3>2024</h3>
-      <h3>Skills</h3>
-      <h6>Circuit Design - Prototyping - Electrical Design</h6>
-      <h3>Description and Outcome</h3>
-      <p>
-      This project was completed for ENPH 259. In this course, we are taught circuit analysis and construction. The final project was constructing a PI speed controller for a servo motor. </p>
-      <p>
-      This included building the circuit from scratch and learning how each component integrates, allowing the circuit to function. The design included operational amplifiers, counters, and various transistors. It also provided an introduction to control theory as the circuit we constructed performed PI control through hardware. As we went through the project, we completed a <a href="https://drive.google.com/file/d/1tOqwhmvbgvaCjIWR-5qgBVvp7aUhcFYC/view?usp=sharing" target="_blank" title="lab notebook">lab notebook</a> that chronicles all the lessons learned throughout the process. 
-      </p>
-    </div>
-</div>
-
-
-
-
-<!-- Trigger -->
 <div class="fake-textbox" data-modal-target="myModal5">ENPH 253 Robot
 <div class="thumbs">
     <img src="/static/assets/img/enph253_robot1.png" alt="ENPH 253 Robot">
