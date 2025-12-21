@@ -43,41 +43,52 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Marked
     marked.use({ mangle: false, headerIds: false })
-    section_names.forEach((name, idx) => {
-        fetch(content_dir + name + '.md')
-            .then(response => response.text())
-            .then(markdown => {
-                const html = marked.parse(markdown);
-                document.getElementById(name + '-md').innerHTML = html;
-            })
-            .then(() => {
-                // MathJax
+    const params = new URLSearchParams(window.location.search);
+    const page = params.get("page");
+    const section = params.get("section");
+    const p = params.get("p");
+
+    function hideAllSections() {
+        document.querySelectorAll("[id$='-md']").forEach(el => {
+            el.style.display = "none";
+        });
+    }
+
+    function loadMarkdown(targetId, path) {
+        hideAllSections();
+        const el = document.getElementById(targetId);
+        if (!el) return;
+
+        el.style.display = "block";
+
+        fetch(path)
+            .then(res => res.text())
+            .then(md => {
+                el.innerHTML = marked.parse(md);
                 MathJax.typeset();
-
-                // --- Modal functionality (AFTER markdown is injected) ---
-                document.querySelectorAll("[data-modal-target]").forEach(trigger => {
-                    trigger.addEventListener("click", () => {
-                        const modalId = trigger.getAttribute("data-modal-target");
-                        const modal = document.getElementById(modalId);
-                        if (modal) modal.style.display = "block";
-                    });
-                });
-
-                // Close buttons
-                document.querySelectorAll(".modal-close").forEach(btn => {
-                    btn.addEventListener("click", () => {
-                        btn.closest(".custom-modal").style.display = "none";
-                    });
-                });
-
-                // Close when clicking outside modal content
-                window.addEventListener("click", (event) => {
-                    if (event.target.classList.contains("custom-modal")) {
-                        event.target.style.display = "none";
-                    }
-                });
             })
-            .catch(error => console.log(error));
-    })
+            .catch(err => console.error(err));
+    }
+
+    // ---- ROUTING ----
+
+    if (section === "projects" && p) {
+        loadMarkdown("projects-md", `${content_dir}projects/${p}.md`);
+    }
+    else if (section === "experiences" && p) {
+        loadMarkdown("experiences-md", `${content_dir}experiences/${p}.md`);
+    }
+    else if (page === "projects") {
+        loadMarkdown("projects-md", `${content_dir}projects.md`);
+    }
+    else if (page === "experiences") {
+        loadMarkdown("experiences-md", `${content_dir}experiences.md`);
+    }
+    else if (page === "resume") {
+        loadMarkdown("resume-md", `${content_dir}resume.md`);
+    }
+    else {
+        loadMarkdown("home-md", `${content_dir}home.md`);
+    }
 
 });
