@@ -13,4 +13,15 @@ For my final project, I used publicly available data and software developed by m
   The system I studied, 253990973, is a binary star system whose exoplanet is tidally locked to the larger, dimmer star.
 </p>
 
+<iframe 
+    src="static/assets/ASTRS41 Final Paper - Abigail Adam.pdf"
+    type="application/pdf" 
+    width="100%" 
+    height="600px" 
+    style="border:none;">
+</iframe>
+
+
+
+
 
