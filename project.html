@@ -2,27 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Project</title>
+  <title>Detail</title>
 
-  <!-- CSS -->
-  <link href="/static/css/styles.css" rel="stylesheet" />
-  <link href="/static/css/main.css" rel="stylesheet" />
+  <!-- CSS (ABSOLUTE PATHS) -->
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <link rel="stylesheet" href="/static/css/main.css">
 
-  <!-- JS -->
+  <!-- Markdown -->
   <script src="/static/js/marked.min.js"></script>
+
+  <!-- YAML -->
   <script src="/static/js/js-yaml.min.js"></script>
-  <script src="/static/js/tex-svg.js"></script>
+
+  <!-- MathJax config -->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+
+  <!-- MathJax -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+  <!-- Core logic (LAST, DEFERRED) -->
   <script src="/static/js/scripts.js" defer></script>
 </head>
 
 <body>
 
-  <!-- Optional navbar (reuse your existing one if you want) -->
-  <nav id="mainNav">
-    <a href="/" style="padding:1rem; display:inline-block;">← Back</a>
+  <!-- Minimal navbar -->
+  <nav id="mainNav" style="padding:1rem;">
+    <a href="/" style="text-decoration:none;">← Back</a>
   </nav>
 
-  <!-- Project content ONLY -->
+  <!-- CONTENT -->
   <main class="container">
     <div id="project-md" class="md-content"></div>
   </main>

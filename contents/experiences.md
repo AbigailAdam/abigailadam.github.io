@@ -1,11 +1,11 @@
-<a class="experience-link" 
-   href="/project.html?p=technion" 
+<a class="experience-link"
+   href="/project.html?type=experience&p=technion"
    target="_blank"
    rel="noopener noreferrer">
   <div class="fake-textbox">
     Technion International Summer Research Program
     <div class="thumbs">
-      <img src="/static/assets/img/agroponicslogo.png" alt="Agroponics logo">
+      <img src="/static/assets/img/technion.png" alt="Technion logo">
     </div>
     <div class="skills">
       <ul>
@@ -17,12 +17,12 @@
   </div>
 </a>
 
-<a class="experience-link" 
-   href="/project.html?p=agroponics" 
+<a class="experience-link"
+   href="/project.html?type=experience&p=agroponics"
    target="_blank"
    rel="noopener noreferrer">
   <div class="fake-textbox">
-    UBC Agroponics - Design Team
+    UBC Agroponics – Design Team
     <div class="thumbs">
       <img src="/static/assets/img/agroponicslogo.png" alt="Agroponics logo">
     </div>
@@ -30,28 +30,27 @@
       <ul>
         <li>Circuit Design</li>
         <li>Prototyping</li>
-        <li>C++/Python</li>
+        <li>C++ / Python</li>
       </ul>
     </div>
   </div>
 </a>
 
-<a class="experience-link" 
-   href="/project.html?p=jap" 
+<a class="experience-link"
+   href="/project.html?type=experience&p=jap"
    target="_blank"
    rel="noopener noreferrer">
   <div class="fake-textbox">
-    Jablonsky Ast and Partners - Co-op
+    Jablonsky Ast & Partners – Co-op
     <div class="thumbs">
       <img src="/static/assets/img/Jablonsky-Ast-Logo.png" alt="JAP logo">
     </div>
     <div class="skills">
       <ul>
-        <li>Technical Reading/Writing</li>
+        <li>Technical Writing</li>
         <li>Teamwork</li>
-        <li>RFP</li>
+        <li>RFPs</li>
       </ul>
     </div>
   </div>
 </a>
-
