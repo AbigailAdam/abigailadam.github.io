@@ -71,8 +71,32 @@ window.addEventListener('DOMContentLoaded', event => {
     }
 
     // ---- ROUTING ----
+    const isProjectPage = window.location.pathname.endsWith("project.html");
 
-    if (section === "projects" && p) {
+    if (isProjectPage) {
+        if (p) {
+            fetch(`${content_dir}projects/${p}.md`)
+                .then(res => {
+                    if (!res.ok) throw new Error("Project not found");
+                    return res.text();
+                })
+                .then(md => {
+                    document.getElementById("project-md").innerHTML =
+                        `<div class="md-content">${marked.parse(md)}</div>`;
+                    if (window.MathJax) MathJax.typeset();
+                })
+                .catch(err => {
+                    document.getElementById("project-md").innerHTML =
+                        "<h2>Project not found</h2>";
+                    console.error(err);
+                });
+        }
+    
+        // 🚨 STOP ALL OTHER ROUTING
+        return;
+    }
+    
+    else if (section === "projects" && p) {
         loadMarkdown("projects-md", `${content_dir}projects/${p}.md`);
     }
     else if (section === "experiences" && p) {
@@ -90,6 +114,7 @@ window.addEventListener('DOMContentLoaded', event => {
     else {
         loadMarkdown("home-md", `${content_dir}home.md`);
     }
+
 
 
 
