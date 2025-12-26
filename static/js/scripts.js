@@ -7,23 +7,30 @@ window.addEventListener("DOMContentLoaded", () => {
 
   const params = new URLSearchParams(window.location.search);
   const p = params.get("p");
-  const isProjectPage = window.location.pathname.endsWith("/project.html");
+  const type = params.get("type") || "project";
+
+  const isDetailPage = window.location.pathname.endsWith("/project.html");
 
   /* ===========================
-     PROJECT PAGE
+     DETAIL PAGE (project.html)
      =========================== */
-  if (isProjectPage) {
+  if (isDetailPage) {
     const container = document.getElementById("project-md");
     if (!container || !p) return;
 
-    fetch(`${CONTENT_DIR}projects/${p}.md`)
-      .then(r => r.text())
+    const folder = type === "experience" ? "experiences" : "projects";
+
+    fetch(`${CONTENT_DIR}${folder}/${p}.md`)
+      .then(r => {
+        if (!r.ok) throw new Error("Not found");
+        return r.text();
+      })
       .then(md => {
         container.innerHTML = marked.parse(md);
         if (window.MathJax) MathJax.typeset();
       })
       .catch(() => {
-        container.innerHTML = "<h2>Project not found</h2>";
+        container.innerHTML = "<h2>Content not found</h2>";
       });
 
     return;
@@ -33,7 +40,7 @@ window.addEventListener("DOMContentLoaded", () => {
      HOMEPAGE
      =========================== */
 
-  // Load YAML config
+  // Load site config
   fetch(CONTENT_DIR + CONFIG_FILE)
     .then(r => r.text())
     .then(text => {
