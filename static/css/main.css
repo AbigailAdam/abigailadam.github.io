@@ -473,7 +473,7 @@ iframe {
 #experiences-md {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* LEFT aligned */
+  align-items: flex-end; /* RIGHT aligned */
   gap: 1.5rem;
 }
 
