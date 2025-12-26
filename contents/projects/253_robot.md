@@ -2,7 +2,7 @@
 ## 2025
 
 ### Skills
-**PCB Design (KiCAD)** · Prototyping · C++
+###### PCB Design (KiCAD) · Prototyping · C++
 
 ### Description and Outcome
 
