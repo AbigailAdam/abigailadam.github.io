@@ -3,8 +3,8 @@
       ## 2025
       ### Skills
       #### PCB Design (KiCAD) - Prototyping - C++
-      
-      ### Description and Outcome</h3>
+
+      ### Description and Outcome
       
       This project was completed for ENPH 253. In this course, students form teams and build autonomous robots to participate in a competition. The [2025 Competition](https://projectlab.engphys.ubc.ca/enph-253-2025/) involved the robots collecting Beanie Babies from various positions along an obstacle course and returning them to a safe zone.
     
