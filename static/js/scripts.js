@@ -6,8 +6,6 @@ window.addEventListener("DOMContentLoaded", () => {
   marked.use({ mangle: false, headerIds: false });
 
   const params = new URLSearchParams(window.location.search);
-  const page = params.get("page");
-  const section = params.get("section");
   const p = params.get("p");
 
   const isProjectPage = window.location.pathname.endsWith("/project.html");
@@ -36,15 +34,14 @@ window.addEventListener("DOMContentLoaded", () => {
         container.innerHTML = "<h2>Project not found</h2>";
       });
 
-    // 🚨 HARD STOP — do NOT run homepage logic
-    return;
+    return; // 🚨 stop here
   }
 
   /* =====================================================
      HOMEPAGE (index.html)
      ===================================================== */
 
-  // Bootstrap ScrollSpy (safe on homepage only)
+  // ScrollSpy
   const mainNav = document.querySelector("#mainNav");
   if (mainNav && window.bootstrap) {
     new bootstrap.ScrollSpy(document.body, {
@@ -53,7 +50,7 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Navbar collapse on mobile
+  // Collapse navbar on mobile
   const navbarToggler = document.querySelector(".navbar-toggler");
   document.querySelectorAll("#navbarResponsive .nav-link").forEach(link => {
     link.addEventListener("click", () => {
@@ -74,18 +71,13 @@ window.addEventListener("DOMContentLoaded", () => {
       });
     });
 
-  function hideAllSections() {
-    document.querySelectorAll("[id$='-md']").forEach(el => {
-      el.style.display = "none";
-    });
-  }
+  /* =====================================================
+     LOAD ALL SECTIONS (THIS IS THE KEY FIX)
+     ===================================================== */
 
   function loadMarkdown(targetId, path) {
     const el = document.getElementById(targetId);
     if (!el) return;
-
-    hideAllSections();
-    el.style.display = "block";
 
     fetch(path)
       .then(res => res.text())
@@ -95,22 +87,9 @@ window.addEventListener("DOMContentLoaded", () => {
       });
   }
 
-  /* =====================================================
-     HOMEPAGE ROUTING
-     ===================================================== */
-
-  if (section === "projects" && p) {
-    loadMarkdown("projects-md", `${CONTENT_DIR}projects/${p}.md`);
-  } else if (section === "experiences" && p) {
-    loadMarkdown("experiences-md", `${CONTENT_DIR}experiences/${p}.md`);
-  } else if (page === "projects") {
-    loadMarkdown("projects-md", `${CONTENT_DIR}projects.md`);
-  } else if (page === "experiences") {
-    loadMarkdown("experiences-md", `${CONTENT_DIR}experiences.md`);
-  } else if (page === "resume") {
-    loadMarkdown("resume-md", `${CONTENT_DIR}resume.md`);
-  } else {
-    loadMarkdown("home-md", `${CONTENT_DIR}home.md`);
-  }
+  loadMarkdown("home-md", `${CONTENT_DIR}home.md`);
+  loadMarkdown("projects-md", `${CONTENT_DIR}projects.md`);
+  loadMarkdown("experiences-md", `${CONTENT_DIR}experiences.md`);
+  loadMarkdown("resume-md", `${CONTENT_DIR}resume.md`);
 
 });
