@@ -5,7 +5,8 @@
   <div class="fake-textbox">
     Technion International Summer Research Program
     <div class="thumbs">
-      <img src="/static/assets/img/technion.png" alt="Technion logo">
+      <img src="/static/assets/img/technion.png" alt="mechanical dec of decays">
+      <img src="/static/assets/img/technionphysics.png" alt="technion logo">
     </div>
     <div class="skills">
       <ul>
@@ -17,6 +18,8 @@
   </div>
 </a>
 
+
+
 <a class="experience-link"
    href="/project.html?type=experience&p=agroponics"
    target="_blank"
@@ -25,6 +28,7 @@
     UBC Agroponics – Design Team
     <div class="thumbs">
       <img src="/static/assets/img/agroponicslogo.png" alt="Agroponics logo">
+      <img src="/static/assets/img/MQTT.png" alt="Server architecture">
     </div>
     <div class="skills">
       <ul>
@@ -44,6 +48,7 @@
     Jablonsky Ast & Partners – Co-op
     <div class="thumbs">
       <img src="/static/assets/img/Jablonsky-Ast-Logo.png" alt="JAP logo">
+      <img src="/static/assets/img/tdc.png" alt="tdc">
     </div>
     <div class="skills">
       <ul>
@@ -54,3 +59,5 @@
     </div>
   </div>
 </a>
+
+
