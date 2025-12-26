@@ -1,4 +1,4 @@
-<a class="project-link" href="/project.html?p=exoplanet_characterisation">
+<a class="project-link" href="/?section=projects&p=exoplanet_characterisation">
   <div class="fake-textbox">
     Exoplanet Characterisation
     <div class="thumbs">
@@ -15,7 +15,7 @@
   </div>
 </a>
 
-<a class="project-link" href="/project.html?p=weizmann_comp">
+<a class="project-link" href="/?section=projects&p=weizmann_comp">
   <div class="fake-textbox">
     Weizmann Institute Safe
     <div class="thumbs">
@@ -32,7 +32,7 @@
   </div>
 </a>
 
-<a class="project-link" href="/project.html?p=253_robot">
+<a class="project-link" href="/?section=projects&p=253_robot">
   <div class="fake-textbox">
     ENPH 253 Robot
     <div class="thumbs">
