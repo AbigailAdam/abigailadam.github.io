@@ -496,3 +496,41 @@ iframe {
   }
 }
 
+/* ===========================
+   Home Layout (Photo + Text)
+=========================== */
+
+.home-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+/* Avatar column */
+.home-avatar {
+  flex: 0 0 220px; /* fixed width column */
+}
+
+.home-avatar img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* Text column */
+.home-text {
+  flex: 1;
+}
+
+/* Stack on mobile */
+@media (max-width: 768px) {
+  .home-layout {
+    flex-direction: column;
+  }
+
+  .home-avatar {
+    max-width: 180px;
+  }
+}
+
