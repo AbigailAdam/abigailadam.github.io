@@ -1,121 +1,116 @@
-const content_dir = 'contents/'
-const config_file = 'config.yml'
-const section_names = ['home', 'experiences', 'projects', 'resume']
+const CONTENT_DIR = "contents/";
+const CONFIG_FILE = "config.yml";
 
-window.addEventListener('DOMContentLoaded', event => {
+window.addEventListener("DOMContentLoaded", () => {
 
-    // Activate Bootstrap scrollspy on the main nav element
-    const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
-        new bootstrap.ScrollSpy(document.body, {
-            target: '#mainNav',
-            offset: 74,
-        });
-    };
+  marked.use({ mangle: false, headerIds: false });
 
-    // Collapse responsive navbar when toggler is visible
-    const navbarToggler = document.body.querySelector('.navbar-toggler');
-    const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .nav-link')
-    );
-    responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {
-                navbarToggler.click();
-            }
-        });
+  const params = new URLSearchParams(window.location.search);
+  const page = params.get("page");
+  const section = params.get("section");
+  const p = params.get("p");
+
+  const isProjectPage = window.location.pathname.endsWith("/project.html");
+
+  /* =====================================================
+     PROJECT PAGE (project.html)
+     ===================================================== */
+  if (isProjectPage) {
+    const container = document.getElementById("project-md");
+
+    if (!container || !p) {
+      container.innerHTML = "<h2>Project not found</h2>";
+      return;
+    }
+
+    fetch(`${CONTENT_DIR}projects/${p}.md`)
+      .then(res => {
+        if (!res.ok) throw new Error("Not found");
+        return res.text();
+      })
+      .then(md => {
+        container.innerHTML = marked.parse(md);
+        if (window.MathJax) MathJax.typeset();
+      })
+      .catch(() => {
+        container.innerHTML = "<h2>Project not found</h2>";
+      });
+
+    // 🚨 HARD STOP — do NOT run homepage logic
+    return;
+  }
+
+  /* =====================================================
+     HOMEPAGE (index.html)
+     ===================================================== */
+
+  // Bootstrap ScrollSpy (safe on homepage only)
+  const mainNav = document.querySelector("#mainNav");
+  if (mainNav && window.bootstrap) {
+    new bootstrap.ScrollSpy(document.body, {
+      target: "#mainNav",
+      offset: 74,
+    });
+  }
+
+  // Navbar collapse on mobile
+  const navbarToggler = document.querySelector(".navbar-toggler");
+  document.querySelectorAll("#navbarResponsive .nav-link").forEach(link => {
+    link.addEventListener("click", () => {
+      if (navbarToggler && getComputedStyle(navbarToggler).display !== "none") {
+        navbarToggler.click();
+      }
+    });
+  });
+
+  // Load YAML config
+  fetch(CONTENT_DIR + CONFIG_FILE)
+    .then(res => res.text())
+    .then(text => {
+      const yml = jsyaml.load(text);
+      Object.keys(yml).forEach(key => {
+        const el = document.getElementById(key);
+        if (el) el.innerHTML = yml[key];
+      });
     });
 
-    // Yaml
-    fetch(content_dir + config_file)
-        .then(response => response.text())
-        .then(text => {
-            const yml = jsyaml.load(text);
-            Object.keys(yml).forEach(key => {
-                try {
-                    document.getElementById(key).innerHTML = yml[key];
-                } catch {
-                    console.log("Unknown id and value: " + key + "," + yml[key].toString())
-                }
-            })
-        })
-        .catch(error => console.log(error));
+  function hideAllSections() {
+    document.querySelectorAll("[id$='-md']").forEach(el => {
+      el.style.display = "none";
+    });
+  }
 
-    // Marked
-    marked.use({ mangle: false, headerIds: false })
-    const params = new URLSearchParams(window.location.search);
-    const page = params.get("page");
-    const section = params.get("section");
-    const p = params.get("p");
+  function loadMarkdown(targetId, path) {
+    const el = document.getElementById(targetId);
+    if (!el) return;
 
-    function hideAllSections() {
-        document.querySelectorAll("[id$='-md']").forEach(el => {
-            el.style.display = "none";
-        });
-    }
+    hideAllSections();
+    el.style.display = "block";
 
-    function loadMarkdown(targetId, path) {
-        hideAllSections();
-        const el = document.getElementById(targetId);
-        if (!el) return;
+    fetch(path)
+      .then(res => res.text())
+      .then(md => {
+        el.innerHTML = marked.parse(md);
+        if (window.MathJax) MathJax.typeset();
+      });
+  }
 
-        el.style.display = "block";
+  /* =====================================================
+     HOMEPAGE ROUTING
+     ===================================================== */
 
-        fetch(path)
-            .then(res => res.text())
-            .then(md => {
-                el.innerHTML = marked.parse(md);
-                MathJax.typeset();
-            })
-            .catch(err => console.error(err));
-    }
-
-    // ---- ROUTING ----
-    const isProjectPage = window.location.pathname.endsWith("project.html");
-
-    if (isProjectPage) {
-        if (p) {
-            fetch(`${content_dir}projects/${p}.md`)
-                .then(res => {
-                    if (!res.ok) throw new Error("Project not found");
-                    return res.text();
-                })
-                .then(md => {
-                    document.getElementById("project-md").innerHTML =
-                        `<div class="md-content">${marked.parse(md)}</div>`;
-                    if (window.MathJax) MathJax.typeset();
-                })
-                .catch(err => {
-                    document.getElementById("project-md").innerHTML =
-                        "<h2>Project not found</h2>";
-                    console.error(err);
-                });
-        }
-    
-        // 🚨 STOP ALL OTHER ROUTING
-        return;
-    }
-    
-    else if (section === "projects" && p) {
-        loadMarkdown("projects-md", `${content_dir}projects/${p}.md`);
-    }
-    else if (section === "experiences" && p) {
-        loadMarkdown("experiences-md", `${content_dir}experiences/${p}.md`);
-    }
-    else if (page === "projects") {
-        loadMarkdown("projects-md", `${content_dir}projects.md`);
-    }
-    else if (page === "experiences") {
-        loadMarkdown("experiences-md", `${content_dir}experiences.md`);
-    }
-    else if (page === "resume") {
-        loadMarkdown("resume-md", `${content_dir}resume.md`);
-    }
-    else {
-        loadMarkdown("home-md", `${content_dir}home.md`);
-    }
-
-
-
+  if (section === "projects" && p) {
+    loadMarkdown("projects-md", `${CONTENT_DIR}projects/${p}.md`);
+  } else if (section === "experiences" && p) {
+    loadMarkdown("experiences-md", `${CONTENT_DIR}experiences/${p}.md`);
+  } else if (page === "projects") {
+    loadMarkdown("projects-md", `${CONTENT_DIR}projects.md`);
+  } else if (page === "experiences") {
+    loadMarkdown("experiences-md", `${CONTENT_DIR}experiences.md`);
+  } else if (page === "resume") {
+    loadMarkdown("resume-md", `${CONTENT_DIR}resume.md`);
+  } else {
+    loadMarkdown("home-md", `${CONTENT_DIR}home.md`);
+  }
 
 });
