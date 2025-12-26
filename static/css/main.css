@@ -270,11 +270,14 @@ section .main-body {
 }
 
 .custom-modal-content img {
-  max-width: 100%;   /* never overflow container width */
-  height: auto;      /* keep proportions */
+  width: 100%;
+  height: clamp(200px, 35vh, 380px);
+  object-fit: cover;
+  border-radius: 8px;
   display: block;
-  margin: 1em auto;  /* center with spacing */
+  margin: 1.5rem auto;
 }
+
 
 /* ===========================
    Modal Title -- NEW ADDITION
@@ -473,7 +476,7 @@ iframe {
 #experiences-md {
   display: flex;
   flex-direction: column;
-  align-items: flex-end; /* RIGHT aligned */
+  align-items: flex-start; /* LEFT aligned */
   gap: 1.5rem;
 }
 
