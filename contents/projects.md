@@ -1,5 +1,5 @@
 <a class="project-link" 
-   href="/?section=projects&p=exoplanet_characterisation"
+   href="/project.html?p=exoplanet_characterisation"
    target="_blank"
    rel="noopener noreferrer">
   <div class="fake-textbox">
@@ -18,8 +18,8 @@
   </div>
 </a>
 
-<a class="project-link" h
-   ref="/?section=projects&p=weizmann_comp" 
+<a class="project-link"
+   href="/project.html?p=weizmann_comp" 
    target="_blank"
    rel="noopener noreferrer">
   <div class="fake-textbox">
@@ -39,7 +39,7 @@
 </a>
 
 <a class="project-link" 
-   href="/?section=projects&p=253_robot"
+   href="/project.html?p=253_robot"
    target="_blank"
    rel="noopener noreferrer">
   <div class="fake-textbox">
