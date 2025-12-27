@@ -11,7 +11,7 @@
 </div>
 
 #### About Me 
-Hello! My name is Abigail Adam and I am a 3rd year student studying Engineering Physics at the University of British Columbia. 
+My name is Abigail Adam and I am a 3rd year student studying Engineering Physics at the University of British Columbia. 
 
 #### Education
 Bachelors of Applied Science in Engineering Physics, Minor in Physics, University of British Columbia, 2023-2028. 

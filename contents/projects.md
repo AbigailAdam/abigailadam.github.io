@@ -57,3 +57,23 @@
     </div>
   </div>
 </a>
+
+<a class="project-link" 
+   href="/project.html?p=253_robot"
+   target="_blank"
+   rel="noopener noreferrer">
+  <div class="fake-textbox">
+    ENPH 353 Competiton
+    <div class="thumbs">
+      <img src="/static/assets/img/ros_snapshot_1764453882_MASK_BOX.png" alt="clueboard">
+      <img src="/static/assets/img/conf_matrix.png" alt="confusion_matrix">
+    </div>
+    <div class="skills">
+      <ul>
+        <li>ROS</li>
+        <li>OpenCV</li>
+        <li>Machine Learning</li>
+      </ul>
+    </div>
+  </div>
+</a>
