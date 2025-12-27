@@ -59,7 +59,7 @@
 </a>
 
 <a class="project-link" 
-   href="/project.html?p=253_robot"
+   href="/project.html?p=enp_353"
    target="_blank"
    rel="noopener noreferrer">
   <div class="fake-textbox">
