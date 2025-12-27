@@ -1,4 +1,4 @@
-# ENPH 253 Robot
+# ENPH 353 Competition
 ## 2025
 
 ### Skills
