@@ -10,3 +10,5 @@ This project was completed for ENPH 253. In this course, students form teams and
 
 My responsibilities focused on the electrical and software design of our robot. The electrical side involved designing our H-Bridge PCBs, power distribution, and claw integration circuits. For the software, I wrote C++ libraries to communicate and process data from the many sensors we used and control our actuators. The github repo containing the code for the project can be found  [here](https://github.com/emajkic/ENPH_253_Robot). 
 
+Here is the schematic and layout of the PCB: 
+
