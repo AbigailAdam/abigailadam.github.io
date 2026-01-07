@@ -55,7 +55,7 @@ h6 { font-size: 0.75rem; }
   padding: 5rem 0;   /* reduced from 10rem */
   background-position: center;
   background-size: cover;
-  height: 15rem;     /* reduced from 25rem */
+  height: 20rem;     /* reduced from 25rem */
   overflow: hidden; 
 }
 
@@ -233,15 +233,11 @@ section .main-body {
 }
 
 
-
-
-
-
 /* Style all navbar links */
 .nav-link {
   font-family: 'Inter', sans-serif; /* or whichever font you want */
-  font-weight: 350;   /* removed !important so active state can override */
-  font-size: 1.5rem !important;
+  font-weight: 700;   /* removed !important so active state can override */
+  font-size: 1.25rem !important;
   color: var(--subtitle-color) !important; /* override Bootstrap's gray */
   text-transform: none;    /* change to uppercase/lowercase if you want */
   letter-spacing: 0.5px;
