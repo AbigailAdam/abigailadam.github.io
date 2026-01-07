@@ -1,24 +1,4 @@
 <a class="experience-link"
-   href="/project.html?type=experience&p=technion">
-  <div class="fake-textbox">
-    Technion International Summer Research Program
-    <div class="thumbs">
-      <img src="/static/assets/img/technion.png" alt="mechanical dec of decays">
-      <img src="/static/assets/img/technionphysics.png" alt="technion logo">
-    </div>
-    <div class="skills">
-      <ul>
-        <li>Applied Physics</li>
-        <li>Applied Math</li>
-        <li>Research</li>
-      </ul>
-    </div>
-  </div>
-</a>
-
-
-
-<a class="experience-link"
    href="/project.html?type=experience&p=agroponics">
   <div class="fake-textbox">
     UBC Agroponics – Design Team
@@ -31,6 +11,24 @@
         <li>Circuit Design</li>
         <li>Prototyping</li>
         <li>C++ / Python</li>
+      </ul>
+    </div>
+  </div>
+</a>
+
+<a class="experience-link"
+   href="/project.html?type=experience&p=technion">
+  <div class="fake-textbox">
+    Technion International Summer Research Program
+    <div class="thumbs">
+      <img src="/static/assets/img/technionphysics.png" alt="technion logo">
+      <img src="/static/assets/img/technion.png" alt="mechanical dec of decays">
+    </div>
+    <div class="skills">
+      <ul>
+        <li>Applied Physics</li>
+        <li>Applied Math</li>
+        <li>Research</li>
       </ul>
     </div>
   </div>
