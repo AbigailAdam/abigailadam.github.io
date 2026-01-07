@@ -298,12 +298,14 @@ section .main-body {
 }
 
 .custom-modal-content img {
-  width: 100%;
-  height: clamp(200px, 35vh, 380px);
-  object-fit: contain;
-  border-radius: 8px;
+  height: clamp(200px, 35vh, 380px); /* keep your allowed heights */
+  width: auto;                      /* proportional width */
+  max-width: 100%;                  /* never overflow modal */
+
+  object-fit: contain;              /* preserve aspect ratio */
   display: block;
   margin: 1.5rem auto;
+  border-radius: 8px;
 }
 
 
