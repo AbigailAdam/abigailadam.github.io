@@ -300,11 +300,11 @@ section .main-body {
 }
 
 .custom-modal-content img {
-  width: 100%;          /* full width of modal */
-  height: auto;         /* scale height to preserve aspect ratio */
-  max-width: 100%;
+  height: 500px;        /* fixed height for all images */
+  width: auto;          /* scale width to preserve aspect ratio */
+  max-width: 100%;      /* don't exceed modal width */
 
-  object-fit: contain;
+  object-fit: contain;  /* ensure full image is visible */
   display: block;
   margin: 1.5rem auto;
 }
@@ -430,7 +430,8 @@ figcaption {
     width: 100%;
     height: 180px; /* fixed image size */
     border-radius: 6px;
-    object-fit: cover;
+    object-fit: contain;  /* show full image, no cropping */
+    background-color: #f9f9f9;  /* optional: background color for letterboxing */
 }
 
 .fake-textbox .title {
