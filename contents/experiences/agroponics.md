@@ -2,7 +2,7 @@
 <h2>Design Team - Agroponics UBC</h2>
 <h3>2024-Present</h3>
 <h3>Skills</h3>
-Circuit Design - Prototyping - C++/Python
+Circuit Design · Prototyping · C++/Python
 <h3>Description and Outcome</h3>
 
 I have been a member of the automation subteam of <a href="https://ubcagroponics.com/" target="_blank" title="Agroponics UBC">UBC Agroponics</a> for a year. Agroponics is a design team whose goal is to create an automated hydroponic system that can be monitored remotely. This includes collecting time-series data from various sensors, sending it to a main database, and creating visualisations. We are also creating a control panel other team members can use to alter system parameters (light exposure, the amount of nutrient solution in the water, etc.). 
