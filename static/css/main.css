@@ -81,6 +81,18 @@ h6 { font-size: 0.75rem; }
   color: var(--h-title-color);
 }
 
+/* Center Top Section Title (jan 6 centering my name)*/
+
+#top-section-bg-text {
+  text-align: center !important;
+}
+
+/* Also center the container if needed */
+.top-section .container {
+  text-align: center !important;
+}
+
+
 /* ===========================
    Subtitles
 =========================== */
@@ -227,16 +239,11 @@ section .main-body {
   }
 }
 
-
-
-
-
-
 /* Style all navbar links */
 .nav-link {
   font-family: 'Inter', sans-serif; /* or whichever font you want */
-  font-weight: 350;   /* removed !important so active state can override */
-  font-size: 1.5rem !important;
+  /* font-weight: 350;   /* removed !important so active state can override */
+  /* font-size: 1.5rem !important; */
   color: var(--subtitle-color) !important; /* override Bootstrap's gray */
   text-transform: none;    /* change to uppercase/lowercase if you want */
   letter-spacing: 0.5px;
