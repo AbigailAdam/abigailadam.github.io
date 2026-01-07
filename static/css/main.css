@@ -48,22 +48,23 @@ h6 { font-size: 0.75rem; }
 }
 
 /* ===========================
-   Top Section
+   Top Section (with Navbar Offset)
 =========================== */
 .top-section {
   position: relative;
-  height: 15rem;                /* original height */
+  height: 15rem;                 /* original height */
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 80px;            /* leave space for navbar */
-  box-sizing: border-box;       /* include padding in height */
+  flex-direction: column;        /* allows subtitle below title */
+  justify-content: center;       /* vertical centering */
+  align-items: center;           /* horizontal centering */
   background-position: center;
   background-size: cover;
+  overflow: hidden;
+  padding-top: 0;                /* no extra padding needed */
+  box-sizing: border-box;
 }
 
-
-
+/* Optional semi-transparent overlay */
 .top-section:before {
   content: "";
   position: absolute;
@@ -72,35 +73,53 @@ h6 { font-size: 0.75rem; }
   background: rgba(0,0,0,0.5);
 }
 
-/*
+/* Content wrapper */
 .top-section .top-section-content {
-  position: relative;
+  position: relative;  /* above overlay */
   z-index: 1;
-} */
-
-.top-section .top-section-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* shift down by half the navbar height */
+  transform: translateY(40px);  /* 80px navbar / 2 */
 }
 
-
-/* Extra Large Top Heading */
+/* Large Top Heading */
 #top-section-bg-text {
   font-family: "Inter", sans-serif !important;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 4rem;       /* adjust as needed */
   line-height: 1.1;
   color: var(--h-title-color);
-
-  margin: 0;              /* 🔑 THIS fixes the skew */
+  margin: 0;
 }
 
-/* Center the top section container */
-.top-section .container {
-  text-align: center;
+/* Optional subtitle below heading */
+#top-section-subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;       /* adjust as needed */
+  line-height: 1.2;
+  color: var(--subtitle-color);
+  margin-top: 0.5rem;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #top-section-bg-text {
+    font-size: 2.5rem;
+  }
+  #top-section-subtitle {
+    font-size: 1.5rem;
+  }
+  .top-section .top-section-content {
+    transform: translateY(30px); /* slightly smaller offset on mobile */
+  }
+}
+
 
 /* ===========================
    Subtitles
