@@ -42,8 +42,8 @@ h6 { font-size: 0.75rem; }
 =========================== */
 #page-top-title {
   font-family: "Inter", sans-serif !important;
-  font-weight: 700 !important;   /* making the weight 350; was 700 */
-  font-size: 1.25rem !important;
+  font-weight: 350 !important;   /* making the weight 350; was 700 */
+  font-size: 1.5rem !important;
   color: var(--subtitle-color) !important;
 }
 
@@ -52,10 +52,10 @@ h6 { font-size: 0.75rem; }
 =========================== */
 .top-section {
   position: relative;
-  padding: 10rem 0;
+  padding: 5rem 0;   /* reduced from 10rem */
   background-position: center;
   background-size: cover;
-  height: 10rem;
+  height: 15rem;     /* reduced from 25rem */
   overflow: hidden; 
 }
 
@@ -81,17 +81,10 @@ h6 { font-size: 0.75rem; }
   color: var(--h-title-color);
 }
 
-/* Center Top Section Title (jan 6 centering my name)*/
-
-#top-section-bg-text {
-  text-align: center !important;
-}
-
-/* Also center the container if needed */
+/* Center the top section container */
 .top-section .container {
-  text-align: center !important;
+  text-align: center;
 }
-
 
 /* ===========================
    Subtitles
@@ -239,11 +232,16 @@ section .main-body {
   }
 }
 
+
+
+
+
+
 /* Style all navbar links */
 .nav-link {
   font-family: 'Inter', sans-serif; /* or whichever font you want */
-  /* font-weight: 350;   /* removed !important so active state can override */
-  /* font-size: 1.5rem !important; */
+  font-weight: 350;   /* removed !important so active state can override */
+  font-size: 1.5rem !important;
   color: var(--subtitle-color) !important; /* override Bootstrap's gray */
   text-transform: none;    /* change to uppercase/lowercase if you want */
   letter-spacing: 0.5px;
@@ -432,7 +430,7 @@ figcaption {
   border-radius: 6px;
   font-size: 0.85rem;
   font-weight: 400;
-  color: var(#4c507a);
+  color: var(--main-text-color);
   white-space: nowrap;
 }
 
