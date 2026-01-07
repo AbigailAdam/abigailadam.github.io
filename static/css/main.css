@@ -429,7 +429,7 @@ figcaption {
   border-radius: 6px;
   font-size: 0.85rem;
   font-weight: 400;
-  color: var(--main-text-color);
+  color: var(#4c507a);
   white-space: nowrap;
 }
 
