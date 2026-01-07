@@ -286,27 +286,31 @@ section .main-body {
 /* Modal box */
 .custom-modal-content {
   background: #fff;
-  margin: 10% auto;
+  margin: 5vh auto;
   padding: 20px;
   border-radius: 8px;
+
   width: 90%;
   max-width: 1000px;
-  max-height: 80vh; /* Keeps popup from exceeding the screen's height */
-  overflow-y: auto; /* Enables scroll inside the popup */
+
+  max-height: none;     /* ❌ remove vertical clamp */
+  overflow-y: visible; /* ❌ stop clipping */
+
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  text-align: center;
+}
+
 }
 
 .custom-modal-content img {
-  height: clamp(200px, 35vh, 380px); /* keep your allowed heights */
-  width: auto;                      /* proportional width */
-  max-width: 100%;                  /* never overflow modal */
+  height: clamp(200px, 35vh, 380px); /* your allowed heights */
+  width: auto;
+  max-width: 100%;
 
-  object-fit: contain;              /* preserve aspect ratio */
+  object-fit: contain;
   display: block;
-  margin: 1.5rem auto;
-  border-radius: 8px;
+  margin: 2rem auto;
 }
+
 
 
 /* ===========================
