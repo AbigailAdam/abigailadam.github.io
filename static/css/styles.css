@@ -11078,3 +11078,18 @@ footer a:hover, footer a:active, footer a:focus {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+
+/* ===========================
+   Active Navbar Link Fix (jan 6)
+=========================== */
+
+/* Make sure active links change color - override main.css */
+#mainNav .navbar-nav .nav-item .nav-link.active {
+  color: #7a80c2 !important;  /* or use #2937f0 if you prefer the blue */
+  font-weight: 700;
+}
+
+/* Also style on hover */
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: var(--bs-green);
+}
