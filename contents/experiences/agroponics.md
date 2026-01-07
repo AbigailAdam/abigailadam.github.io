@@ -2,10 +2,35 @@
 <h2>Design Team - Agroponics UBC</h2>
 <h3>2024-Present</h3>
 <h3>Skills</h3>
-<h6>Circuit Design - Prototyping - C++/Python</h6>
+Circuit Design - Prototyping - C++/Python
 <h3>Description and Outcome</h3>
-<p> I have been a member of the automation subteam of <a href="https://ubcagroponics.com/" target="_blank" title="Agroponics UBC">Agroponics</a> for a year. Our team's goal is to create a hydroponic system that can be monitored remotely with many of the elements being fully automated. This includes collecting data from our sensors, sending it to our main database, and creating visualisations. We are also creating a control panel other team members can use to alter system parameters (light exposure, the amount of nutrient solution in the water, etc.). 
-<p>
-My role is working on communication between the components of our system. We have several ESP32s and a Raspberry Pi that form a server, hosted on the Raspberry Pi. These elements communicate using the MQTT framework, and will be used to both collect sensor data from the hydroponic system and send out instructions to our actuators. 
-</p>
-I also work directly with the sensors, which involves writing code that collects data, designing calibration procedure, and prototyping the associated circuits.
+
+I have been a member of the automation subteam of <a href="https://ubcagroponics.com/" target="_blank" title="Agroponics UBC">UBC Agroponics</a> for a year. Agroponics is a design team whose goal is to create an automated hydroponic system that can be monitored remotely. This includes collecting time-series data from various sensors, sending it to a main database, and creating visualisations. We are also creating a control panel other team members can use to alter system parameters (light exposure, the amount of nutrient solution in the water, etc.). 
+
+My role is working on communication between the components of our system. We have several ESP32s used to control the sensors, and a server hosted on a Raspberry Pi. These elements communicate using the MQTT framework, and will be used to both collect sensor data from the hydroponic system and send out instructions to our actuators. Below is a figure of the overarching architecture we are implementing: 
+
+<!-- https://q.uiver.app/#q=WzAsOSxbMSwxLCJcXHRleHR7TVFUVCBCcm9rZXIqfSJdLFswLDAsIlxcdGV4dHtEYXRhYmFzZSp9Il0sWzIsMCwiXFx0ZXh0e0FQSSp9Il0sWzAsMiwiXFx0ZXh0e0VTUDMyIChhKX0iXSxbMiwyLCJcXHRleHR7RVNQMzIgKGIpfSJdLFswLDMsIlxcdGV4dHtTZW5zb3JzfSJdLFsyLDMsIlxcdGV4dHtQdW1wc30iXSxbMywwLCJcXHRleHR7Q29udHJvbHMgYW5kIFVJfSJdLFsxLDQsIlxcdGV4dHsqIG1lYW5zIGhvc3RlZCBvbiB0aGUgUmFzcGJlcnJ5IFBpfSJdLFszLDAsInB1Ymxpc2hlciIsMCx7ImxhYmVsX3Bvc2l0aW9uIjowLCJjb2xvdXIiOlszMCw2MCw2MF19LFszMCw2MCw2MCwxXV0sWzAsNCwic3Vic2NyaWJlciIsMCx7ImxhYmVsX3Bvc2l0aW9uIjoxMDAsImNvbG91ciI6WzI0MCw2MCw2MF19LFsyNDAsNjAsNjAsMV1dLFs0LDYsInNlbmRpbmcgXFwsIGNvbW1hbmRzIl0sWzUsMywicmVjaWV2aW5nIFxcLCBkYXRhIl0sWzAsMSwic3Vic2NyaWJlciIsMCx7ImxhYmVsX3Bvc2l0aW9uIjoxMDAsImNvbG91ciI6WzI0MCw2MCw2MF19LFsyNDAsNjAsNjAsMV1dLFsyLDAsInB1Ymxpc2hlciIsMCx7ImxhYmVsX3Bvc2l0aW9uIjowLCJjb2xvdXIiOlszMCw2MCw2MF19LFszMCw2MCw2MCwxXV0sWzcsMiwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV1d -->
+<iframe class="quiver-embed" src="https://q.uiver.app/#q=WzAsOSxbMSwxLCJcXHRleHR7TVFUVCBCcm9rZXIqfSJdLFswLDAsIlxcdGV4dHtEYXRhYmFzZSp9Il0sWzIsMCwiXFx0ZXh0e0FQSSp9Il0sWzAsMiwiXFx0ZXh0e0VTUDMyIChhKX0iXSxbMiwyLCJcXHRleHR7RVNQMzIgKGIpfSJdLFswLDMsIlxcdGV4dHtTZW5zb3JzfSJdLFsyLDMsIlxcdGV4dHtQdW1wc30iXSxbMywwLCJcXHRleHR7Q29udHJvbHMgYW5kIFVJfSJdLFsxLDQsIlxcdGV4dHsqIG1lYW5zIGhvc3RlZCBvbiB0aGUgUmFzcGJlcnJ5IFBpfSJdLFszLDAsInB1Ymxpc2hlciIsMCx7ImxhYmVsX3Bvc2l0aW9uIjowLCJjb2xvdXIiOlszMCw2MCw2MF19LFszMCw2MCw2MCwxXV0sWzAsNCwic3Vic2NyaWJlciIsMCx7ImxhYmVsX3Bvc2l0aW9uIjoxMDAsImNvbG91ciI6WzI0MCw2MCw2MF19LFsyNDAsNjAsNjAsMV1dLFs0LDYsInNlbmRpbmcgXFwsIGNvbW1hbmRzIl0sWzUsMywicmVjaWV2aW5nIFxcLCBkYXRhIl0sWzAsMSwic3Vic2NyaWJlciIsMCx7ImxhYmVsX3Bvc2l0aW9uIjoxMDAsImNvbG91ciI6WzI0MCw2MCw2MF19LFsyNDAsNjAsNjAsMV1dLFsyLDAsInB1Ymxpc2hlciIsMCx7ImxhYmVsX3Bvc2l0aW9uIjowLCJjb2xvdXIiOlszMCw2MCw2MF19LFszMCw2MCw2MCwxXV0sWzcsMiwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV1d&embed" width="1295" height="688" style="border-radius: 8px; border: none;"></iframe>
+
+I also work directly with the sensors. This involves writing C++ code that collects the data, designing calibration procedures, and prototyping the associated circuits. These sensors measure the following parameters: 
+
+- pH level
+- Electrical conductivity (EC)
+- Water temperature
+- Ambient humidity and temperature
+- Water level
+- Turbidity
+- Flow rate
+
+<figure>
+  <img src="/static/assets/img/esp diagram.png" alt="esp connection diagram">
+  <figcaption>
+    Circuit/Connection diagram for our control ESP (ESP32 (a) in the figure above)
+  </figcaption>
+</figure>
+
+
+
+
+
+

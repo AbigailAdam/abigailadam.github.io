@@ -11,7 +11,7 @@ I worked with the High Energy Physics Group, supervised by Professor  <a href="h
 
 In this role, I learned a lot about particle physics and the applied mathematics involved in Dr. Soreq's work, which involved group theory and learning about tensor calculus. 
 
-I also attended and worked through several masters-level tutorial assignemnts in particle physics under the supervision of Chaja Baruch, one of Dr. Soreq's PhD students who also works in the high energy physics groups. The topics I studied included: 
+I also attended and worked through several masters-level tutorials in particle physics under the supervision of Chaja Baruch, one of Dr. Soreq's PhD students who also works in the High Energy Physics group. The topics I studied included: 
 - Special Relativity
 - The Standard Model
 - Observables in Particle Physics
