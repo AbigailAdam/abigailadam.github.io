@@ -1,7 +1,5 @@
 <a class="experience-link"
-   href="/project.html?type=experience&p=technion"
-   target="_blank"
-   rel="noopener noreferrer">
+   href="/project.html?type=experience&p=technion">
   <div class="fake-textbox">
     Technion International Summer Research Program
     <div class="thumbs">
@@ -21,9 +19,7 @@
 
 
 <a class="experience-link"
-   href="/project.html?type=experience&p=agroponics"
-   target="_blank"
-   rel="noopener noreferrer">
+   href="/project.html?type=experience&p=agroponics">
   <div class="fake-textbox">
     UBC Agroponics – Design Team
     <div class="thumbs">
@@ -41,9 +37,7 @@
 </a>
 
 <a class="experience-link"
-   href="/project.html?type=experience&p=jap"
-   target="_blank"
-   rel="noopener noreferrer">
+   href="/project.html?type=experience&p=jap">
   <div class="fake-textbox">
     Jablonsky Ast & Partners – Co-op
     <div class="thumbs">

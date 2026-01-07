@@ -1,7 +1,5 @@
 <a class="project-link" 
-   href="/project.html?p=exoplanet_characterisation"
-   target="_blank"
-   rel="noopener noreferrer">
+   href="/project.html?p=exoplanet_characterisation">
   <div class="fake-textbox">
     Exoplanet Characterisation
     <div class="thumbs">
@@ -19,9 +17,7 @@
 </a>
 
 <a class="project-link"
-   href="/project.html?p=weizmann_comp" 
-   target="_blank"
-   rel="noopener noreferrer">
+   href="/project.html?p=weizmann_comp">
   <div class="fake-textbox">
     Weizmann Institute Safe
     <div class="thumbs">
@@ -39,9 +35,7 @@
 </a>
 
 <a class="project-link" 
-   href="/project.html?p=253_robot"
-   target="_blank"
-   rel="noopener noreferrer">
+   href="/project.html?p=253_robot">
   <div class="fake-textbox">
     ENPH 253 Robot
     <div class="thumbs">
@@ -59,9 +53,7 @@
 </a>
 
 <a class="project-link" 
-   href="/project.html?p=enph_353"
-   target="_blank"
-   rel="noopener noreferrer">
+   href="/project.html?p=enph_353">
   <div class="fake-textbox">
     ENPH 353 Competiton
     <div class="thumbs">

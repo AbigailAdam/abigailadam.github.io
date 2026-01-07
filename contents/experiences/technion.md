@@ -2,7 +2,7 @@
 <h2>Technion - International Undergraduate Summer Research Program</h2>
 <h3>2024</h3>
 <h3>Skills</h3>
-<h6>Applied Math - Particle Physics - Work-based Learning</h6>
+<h6>Applied Physics - Applied Math - Research</h6>
 <h3>Description and Outcome</h3>
 <p> The International Undergraduate Summer Research Program is run by the Technion each year, and it gives students from around the world the opportuntity to be involved in cutting edge scientific research. 
 <p> 
