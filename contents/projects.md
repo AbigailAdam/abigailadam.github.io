@@ -4,7 +4,7 @@
     ENPH 353 Competiton
     <div class="thumbs">
       <img src="/static/assets/img/ros_snapshot_1764453882_MASK_BOX.png" alt="clueboard">
-      <img src="/static/assets/img/conf_matrix.png" alt="confusion_matrix">
+      <img src="/static/assets/img/confusion_matrix.png" alt="confusion_matrix">
     </div>
     <div class="skills">
       <ul>

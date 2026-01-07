@@ -4,7 +4,7 @@
     UBC Agroponics – Design Team
     <div class="thumbs">
       <img src="/static/assets/img/agroponicslogo.png" alt="Agroponics logo">
-      <img src="/static/assets/img/MQTT.png" alt="Server architecture">
+      <img src="/static/assets/img/software_architecture_agro.png" alt="Server architecture">
     </div>
     <div class="skills">
       <ul>
