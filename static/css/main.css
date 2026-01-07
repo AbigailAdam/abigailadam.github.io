@@ -300,7 +300,7 @@ section .main-body {
 .custom-modal-content img {
   width: 100%;
   height: clamp(200px, 35vh, 380px);
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 8px;
   display: block;
   margin: 1.5rem auto;
