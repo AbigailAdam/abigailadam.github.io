@@ -562,3 +562,20 @@ iframe {
   }
 }
 
+/* Side-by-side figures */
+.figure-row {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.figure-row figure {
+  flex: 1;
+}
+
+/* Stack vertically on small screens */
+@media (max-width: 768px) {
+  .figure-row {
+    flex-direction: column;
+  }
+}

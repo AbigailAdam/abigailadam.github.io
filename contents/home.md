@@ -16,5 +16,7 @@ My name is Abigail Adam and I am a 3rd year student studying Engineering Physics
 #### Education
 Bachelors of Applied Science in Engineering Physics, Minor in Physics, University of British Columbia, 2023-2028. 
 
-#### Interests
-Applied Physics, Applied Math, PCB Design, Electrical Engineering. 
+#### Skills
+Applied Physics, Astronomy, C, C++, Git, Java, Linux (Xubuntu 20.4), Machine Learning, MATLAB, Mathematics, PCB Design, Prototyping, Python, Robotics, ROS, Simulations, Soldering 
+
+
