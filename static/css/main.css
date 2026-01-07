@@ -23,7 +23,7 @@ body, p {
 =========================== */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Inter", sans-serif !important;
-  font-weight: 700;
+  font-weight: 200;
   color: var(--subtitle-color);
   line-height: 1.2;
   margin-top: 1.5rem !important;
@@ -265,7 +265,7 @@ section .main-body {
 /* Active link style */
 .nav-link.active {
   color: #7a80c2 !important;
-  font-weight: 700 !important;  /* added !important to override base weight */
+  font-weight: 200 !important;  /* added !important to override base weight */
 }
 
 /* Center navbar items */
@@ -397,7 +397,7 @@ section .main-body {
   padding: 1.5rem 1.75rem;
   border-radius: 14px;
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 200; /* unbolding */
 
   background-color: #ffffff;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
