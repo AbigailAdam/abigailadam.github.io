@@ -42,8 +42,8 @@ h6 { font-size: 0.75rem; }
 =========================== */
 #page-top-title {
   font-family: "Inter", sans-serif !important;
-  font-weight: 250 !important;   /* making the weight 350; was 700 */
-  font-size: 1rem !important;
+  font-weight: 350 !important;   /* making the weight 350; was 700 */
+  font-size: 1.5rem !important;
   color: var(--subtitle-color) !important;
 }
 
@@ -228,10 +228,14 @@ section .main-body {
 }
 
 
+
+
+
+
 /* Style all navbar links */
 .nav-link {
   font-family: 'Inter', sans-serif; /* or whichever font you want */
-  font-weight: 350 !important;   
+  font-weight: 350;   /* removed !important so active state can override */
   font-size: 1.5rem !important;
   color: var(--subtitle-color) !important; /* override Bootstrap's gray */
   text-transform: none;    /* change to uppercase/lowercase if you want */
@@ -242,7 +246,7 @@ section .main-body {
 /* Active link style */
 .nav-link.active {
   color: #7a80c2 !important;
-  font-weight: 700;
+  font-weight: 700 !important;  /* added !important to override base weight */
 }
 
 /* Center navbar items */

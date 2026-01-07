@@ -67,4 +67,52 @@ window.addEventListener("DOMContentLoaded", () => {
   loadMarkdown("projects-md", `${CONTENT_DIR}projects.md`);
   loadMarkdown("experiences-md", `${CONTENT_DIR}experiences.md`);
   loadMarkdown("resume-md", `${CONTENT_DIR}resume.md`);
+
+  /* ===========================
+     NAVBAR ACTIVE LINK HIGHLIGHTING
+     =========================== */
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+  function highlightNavOnScroll() {
+    const scrollY = window.pageYOffset;
+    
+    // Find which section is currently in view
+    let currentSection = '';
+    
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 150; // offset for fixed navbar
+      const sectionHeight = section.offsetHeight;
+      
+      if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+        currentSection = section.getAttribute('id');
+      }
+    });
+
+    // Special case for top of page (before first section)
+    if (scrollY < 100) {
+      currentSection = 'page-top';
+    }
+
+    // Update active class on nav links
+    navLinks.forEach(link => {
+      link.classList.remove('active');
+      const href = link.getAttribute('href');
+      if (href === `#${currentSection}`) {
+        link.classList.add('active');
+      }
+    });
+  }
+
+  // Run on scroll and on page load
+  window.addEventListener('scroll', highlightNavOnScroll);
+  highlightNavOnScroll();
+
+  // Also update active link when clicking nav links
+  navLinks.forEach(link => {
+    link.addEventListener('click', function() {
+      navLinks.forEach(l => l.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
 });
