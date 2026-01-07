@@ -495,8 +495,6 @@ iframe {
   margin: 2rem auto;
 }
 
-
-
 /* new card stuff */
 
 /* ===========================
@@ -509,7 +507,7 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* LEFT aligned */
-  gap: 0.5rem;
+  gap: 0.25rem;
 }
 
 /* Make links behave like blocks */
@@ -534,18 +532,20 @@ iframe {
 
 .home-layout {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 3rem;
 }
 
 /* Avatar column */
 .home-avatar {
   flex: 0 0 220px; /* fixed width column */
+  display: flex;
 }
 
 .home-avatar img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.15);
 }
