@@ -300,8 +300,8 @@ section .main-body {
 }
 
 .custom-modal-content img {
-  max-height: 60%;      /* ← % of modal height */
-  width: auto;
+  width: 100%;          /* full width of modal */
+  height: auto;         /* scale height to preserve aspect ratio */
   max-width: 100%;
 
   object-fit: contain;
