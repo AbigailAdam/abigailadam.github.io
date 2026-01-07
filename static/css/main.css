@@ -249,6 +249,17 @@ section .main-body {
   font-weight: 700;
 }
 
+/* Center navbar items */
+.navbar-nav {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Hide the page title (Portfolio) */
+#page-top-title {
+  display: none !important;
+}
+
 /* --- Modal styles --- */
 
 /* Fake textbox (click trigger) */
