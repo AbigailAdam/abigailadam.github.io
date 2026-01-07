@@ -51,16 +51,19 @@ h6 { font-size: 0.75rem; }
    Top Section
 =========================== */
 .top-section {
+  display: flex;
+  flex-direction: column;  /* if you have multiple elements */
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 4rem;       /* leave space for navbar */
+  padding-bottom: 1rem;
+  height: 15rem;
   position: relative;
-  padding: 0;           /* removed padding, using flexbox instead */
   background-position: center;
   background-size: cover;
-  height: 15rem;        /* reduced from 25rem */
-  overflow: hidden;
-  display: flex;        /* use flexbox for centering */
-  align-items: center;  /* vertically center */
-  justify-content: center; /* horizontally center */
 }
+
 
 .top-section:before {
   content: "";
