@@ -40,7 +40,7 @@
     Jablonsky Ast & Partners – Co-op
     <div class="thumbs">
       <img src="/static/assets/img/Jablonsky-Ast-Logo.png" alt="JAP logo">
-      <img src="/static/assets/img/tdc.png" alt="tdc">
+      <img src="/static/assets/img/tdc_2.png" alt="tdc">
     </div>
     <div class="skills">
       <ul>
