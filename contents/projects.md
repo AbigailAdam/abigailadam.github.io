@@ -1,7 +1,7 @@
 <a class="project-link" 
    href="/project.html?p=enph_353">
   <div class="fake-textbox">
-    ENPH 353 Competiton
+    Machine Learning Project - ENPH 353 Competiton
     <div class="thumbs">
       <img src="/static/assets/img/ros_snapshot_1764453882_MASK_BOX.png" alt="clueboard">
       <img src="/static/assets/img/confusion_matrix.png" alt="confusion_matrix">
@@ -19,7 +19,7 @@
 <a class="project-link" 
    href="/project.html?p=253_robot">
   <div class="fake-textbox">
-    ENPH 253 Robot
+    Autonomous Robot - ENPH 253 Competiton
     <div class="thumbs">
       <img src="/static/assets/img/enph253_robot1.png" alt="ENPH 253 Robot">
       <img src="/static/assets/img/hbridge.png" alt="H-Bridge PCB">
@@ -37,7 +37,7 @@
 <a class="project-link"
    href="/project.html?p=weizmann_comp">
   <div class="fake-textbox">
-    Weizmann Institute Safe
+    Weizmann Institute Physics Puzzle Box
     <div class="thumbs">
       <img src="/static/assets/img/weizmannpicture.png" alt="Weizmann Institute">
       <img src="/static/assets/img/weizmann-logo.png" alt="Weizmann Logo">
