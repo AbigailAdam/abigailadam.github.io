@@ -56,7 +56,10 @@ h6 { font-size: 0.75rem; }
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 80px;            /* leave space for navbar */
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+
   box-sizing: border-box;       /* include padding in height */
   background-position: center;
   background-size: cover;
