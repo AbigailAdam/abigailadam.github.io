@@ -2,7 +2,7 @@
 <h2>Weizmann Institute Safe</h2>
 <h3>2023</h3>
 <h3>Skills</h3>
-Applied Physics - Circuit Design - Prototyping
+Applied Physics · Circuit Design · Prototyping · Soldering · C++
 <h3>Description and Outcome</h3>
 <p>
   The Weizmann Institute of Science runs an annual international physics competition in which students build physics puzzle boxes. I participated in this competition in 2023. The objective of the competition is to build a safe that no other team can open, and they are scored on difficulty and the contestant’s understanding of underlying physics principles. 

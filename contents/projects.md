@@ -11,6 +11,9 @@
         <li>ROS</li>
         <li>OpenCV</li>
         <li>Machine Learning</li>
+        <li>Tensorflow/Keras</li>
+        <li>Linux</li>
+        <li>Python</li>
       </ul>
     </div>
   </div>
@@ -26,9 +29,13 @@
     </div>
     <div class="skills">
       <ul>
-        <li>PCB Design (KiCAD)</li>
+        <li>PCB Design</li>
+        <li>KiCAD</li>
         <li>Prototyping</li>
         <li>C++</li>
+        <li>Soldering</li>
+        <li>Circuit Design</li>
+        <li>OOP</li>
       </ul>
     </div>
   </div>
@@ -47,6 +54,8 @@
         <li>Applied Physics</li>
         <li>Circuit Design</li>
         <li>Prototyping</li>
+        <li>Soldering</li>
+        <li>C++</li>
       </ul>
     </div>
   </div>
@@ -65,6 +74,8 @@
         <li>Applied Physics</li>
         <li>Simulations</li>
         <li>Astronomy</li>
+        <li>Command Line</li>
+        <li>Data Analysis</li>
       </ul>
     </div>
   </div>

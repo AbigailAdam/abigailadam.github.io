@@ -2,7 +2,7 @@
 <h2>Exoplanet Characterisation</h2>
 <h3>2022</h3>
 <h3>Skills</h3>
-Applied Physics · Simulations · Astronomy
+Applied Physics · Simulations · Astronomy · Command Line · Data Analysis
 <h3>Description and Outcome</h3>
 
 <p> In the summer of 2022, I participated in Harvard's Summer School program. As part of that program, I took a course entitled Astronomy: The Life and Death of Stars. In this class, we explored the beginnings of the universe, the life cycle of stars, and the nature of planet formation. </p>

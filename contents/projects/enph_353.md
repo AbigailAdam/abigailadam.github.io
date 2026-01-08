@@ -2,7 +2,7 @@
 ## 2025
 
 ### Skills
-ROS · OpenCV · Machine Learning
+ROS · OpenCV · Machine Learning · Tensorflow/Keras · Linux · Python
 
 ### Description and Outcome
 
