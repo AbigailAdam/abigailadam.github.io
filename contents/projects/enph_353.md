@@ -6,6 +6,10 @@ ROS · OpenCV · Machine Learning
 
 ### Description and Outcome
 
+Github Repositories: 
+* [ENPH353_Controller_Pkg](https://github.com/AbigailAdam/ENPH353_Controller_Pkg)
+* [ENPH353_CNN_Trainer](https://github.com/AbigailAdam/ENPH353_CNN_Trainer)
+
 This project was completed for ENPH 353. In this course, students form teams to build autonomous robots that participate in a competition simulated in Gazebo. The [2025 Competition](https://projectlab.engphys.ubc.ca/enph-353/) involved the robots navigating a complex course while finding and processing clues to solve a fictitious crime. The publication of these clues to a specific ROS topic is how robots recieve points in the competition.  
 
 This all occurs in a Linux environment (specifically Xubuntu 20.04), and the course required a lot of bash scripting and customisations to the system to make running and debugging the simulation simpler. 
