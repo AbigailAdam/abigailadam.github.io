@@ -10,7 +10,10 @@
       <ul>
         <li>Circuit Design</li>
         <li>Prototyping</li>
-        <li>C++ / Python</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>MQTT</li>
+        <li>Data Analysis</li>
       </ul>
     </div>
   </div>
@@ -29,6 +32,7 @@
         <li>Applied Physics</li>
         <li>Applied Math</li>
         <li>Research</li>
+        <li>Presentations</li>
       </ul>
     </div>
   </div>
@@ -44,9 +48,12 @@
     </div>
     <div class="skills">
       <ul>
+        <li>Research</li>
         <li>Technical Writing</li>
         <li>Teamwork</li>
-        <li>RFPs</li>
+        <li>Presentations</li>
+        <li>VBA</li>
+        <li>RFP</li>
       </ul>
     </div>
   </div>
