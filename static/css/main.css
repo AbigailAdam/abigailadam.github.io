@@ -389,7 +389,7 @@ section .main-body {
 /* Override modal-era fake-textbox sizing for lists dec 26*/
 #projects-md .fake-textbox,
 #experiences-md .fake-textbox {
-  width: 90%;
+  width: 90%; /* was 75% */
   max-width: 900px;
   min-width: unset;
   height: auto;
