@@ -15,14 +15,14 @@ Here are some images of the final robot taken from various angles:
 
 <div class="figure-row">
   <figure>
-    <img src="/static/assets/img/marshall with lid.png" alt="Robot without basket">
+    <img src="/static/assets/img/marshall with lid.png" alt="Robot without basket" width="auto" height="400">
     <figcaption>
       Top view of the robot
     </figcaption>
  </figure>
 
  <figure>
-    <img src="/static/assets/img/marshall_w_basket.png" alt="Robot with basket" width="300" height="auto">
+    <img src="/static/assets/img/marshall_w_basket.png" alt="Robot with basket" width="auto" height="400">
     <figcaption>
       Side view of the robot (with the basket)
     </figcaption>
