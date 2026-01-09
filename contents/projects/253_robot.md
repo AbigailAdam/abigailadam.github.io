@@ -37,20 +37,28 @@ I also calculated data to ensure these sensors could reliably detect pets based 
 
 Our robot relied on PID control to enable line following. The PID logic was done in software, but relied on a digital phototransistor circuit and H-Bridges to locate the line and control our motors. The H-Bridge schematic is pictured below, anlong with an image of the actual PCB:
 
-<div class="figure-row">
-  <figure>
+<figure>
     <img src="/static/assets/img/h_bridge_schematic.png" alt="H Bridge Schematic">
     <figcaption>
       H-Bridge Schematic
     </figcaption>
  </figure>
 
+<div class="figure-row">
  <figure>
+    <img src="/static/assets/img/pcb_view.png" alt="H Bridge PCB Design" width="300" height="auto">
+    <figcaption>
+      Image of PCB taken from KiCAD's 3D visualiser
+    </figcaption>
+  </figure>
+
+  <figure>
     <img src="/static/assets/img/hbridge.png" alt="H Bridge PCB" width="300" height="auto">
     <figcaption>
       Image of PCB once all elements were soldered on
     </figcaption>
   </figure>
+
 </div>
 
 I also designed the circuit that enabled us to recieve input from a hall effect sensor placed in the head of the claw, as this would allow verification that the robot had detected a pet before lifting it. That circuit schematic is here: 
