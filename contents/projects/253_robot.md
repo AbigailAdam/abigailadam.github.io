@@ -33,7 +33,7 @@ My responsibilities focused on the electrical and software design of our robot. 
 
 The beanie babies were not marked on the course, and so they had to be detected by some alternate method. One of my major tasks was combining 1D LiDAR sensors (Pololu VL53L1X) with servo motors to form our own 2D LiDAR devices. This involved writing libraries for the servo motors, the LiDARs, and a class combining them that would be used to obtain the data that would be used to identify pets. 
 
-I also calculated data to ensure these sensors could reliably detect pets based on the data the LiDARs collected. 
+I also collected data to ensure these sensors could reliably detect pets and calibrated what counted as a detection precisely. This approach allowed the robot to have much more autonomy than if we had simply counted close objects on the course, and largely avoids the false positives that are so prevalent when simply counting close objects.
 
 Our robot relied on PID control to enable line following. The PID logic was done in software, but relied on a digital phototransistor circuit and H-Bridges to locate the line and control our motors. The H-Bridge schematic is pictured below, anlong with an image of the actual PCB:
 
