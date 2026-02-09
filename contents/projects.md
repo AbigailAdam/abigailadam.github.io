@@ -41,26 +41,6 @@
   </div>
 </a>
 
-<a class="project-link"
-   href="/project.html?p=weizmann_comp">
-  <div class="fake-textbox">
-    Weizmann Institute Physics Puzzle Box
-    <div class="thumbs">
-      <img src="/static/assets/img/weizmannpicture.png" alt="Weizmann Institute">
-      <img src="/static/assets/img/weizmann-logo.png" alt="Weizmann Logo">
-    </div>
-    <div class="skills">
-      <ul>
-        <li>Applied Physics</li>
-        <li>Circuit Design</li>
-        <li>Prototyping</li>
-        <li>Soldering</li>
-        <li>C++</li>
-      </ul>
-    </div>
-  </div>
-</a>
-
 <a class="project-link" 
    href="/project.html?p=exoplanet_characterisation">
   <div class="fake-textbox">
