@@ -45,8 +45,11 @@ I am an Engineering Physics student at the University of British Columbia, enter
 
 I am fascinated by problems at the intersection of physics, mathematics, and engineering, and combining theory with practice to solve them. 
 
+<!--
 <div class="chip-container" markdown="0">
 <a href="{{ 'papers/Abigail_Adam_Resume_S2026 copy.pdf' | relative_url }}" class="chip" target="_blank" rel="noopener">Resume</a>
+>
+
 
 
 <!-- 

@@ -48,10 +48,10 @@ analytics:
 # navbar text without changing the URL.
 nav_pages:
   - name: education
-  - name: resume
   #- name: talks
   - name: experience 
   - name: projects
+  - name: resume
   #- name: software
   #- name: team
   #- name: teaching
