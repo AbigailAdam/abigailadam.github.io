@@ -37,7 +37,7 @@ I also work directly with the sensors. This involves writing C++ code that colle
 - Flow rate
 
 <figure>
-<img src="{{ 'images/esp diagram.png' | relative_url }}" alt="esp connection diagram">
+<img src="{{ 'images/esp diagram.png' | relative_url }}" alt="esp connection diagram" >
 <figcaption>
 Circuit/Connection diagram for our control ESP (ESP32 (a) in the figure above)
 </figcaption>
